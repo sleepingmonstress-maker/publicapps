@@ -1,0 +1,4 @@
+# This site asks search engines not to index any HTML page via meta robots tags.
+# The crawler must be able to fetch the page to see the noindex directive.
+User-agent: *
+Disallow:

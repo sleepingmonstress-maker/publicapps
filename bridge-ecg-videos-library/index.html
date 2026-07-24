@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="googlebot" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="bingbot" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#14342b">
+  <title>Bridge ECG WorkLives Atlas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">B</div>
+        <div><strong>Bridge ECG</strong><span>WorkLives Atlas</span></div>
+      </div>
+      <nav aria-label="Main navigation">
+        <button class="nav-btn active" data-view="home">⌂ <span>Home</span></button>
+        <button class="nav-btn" data-view="cinema">▶ <span>Career Cinema</span></button>
+        <button class="nav-btn" data-view="sectors">◫ <span>World of Work</span></button>
+        <button class="nav-btn" data-view="pathways">⇢ <span>Pathway Atlas</span></button>
+        <button class="nav-btn" data-view="compare">≍ <span>Compare</span><b id="compare-count">0</b></button>
+        <button class="nav-btn" data-view="guidance">◇ <span>Guidance Studio</span></button>
+        <button class="nav-btn" data-view="notebook">✎ <span>Founder Notebook</span></button>
+        <button class="nav-btn" data-view="sources">◎ <span>Source Shelf</span></button>
+        <button class="nav-btn" data-view="settings">⚙ <span>Settings</span></button>
+      </nav>
+      <div class="privacy-chip">Private-use build · noindex enabled</div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <button id="menu-btn" class="icon-btn" aria-label="Open menu">☰</button>
+        <div class="top-title"><span id="view-eyebrow">BRIDGE ECG ATLAS</span><h1 id="view-title">WorkLives Atlas</h1></div>
+        <button id="quick-note-btn" class="pill-btn">＋ Note</button>
+      </header>
+
+      <section id="home" class="view active">
+        <div class="hero">
+          <div class="hero-copy">
+            <span class="kicker">CAREERS AS LIVED REALITY</span>
+            <h2>Do not ask only, “What job sounds good?”</h2>
+            <p>See the work. Hear the practitioners. Trace the pathway. Test the fit. Understand what the field is becoming.</p>
+            <div class="hero-actions">
+              <button class="primary-btn" data-jump="cinema">Enter Career Cinema</button>
+              <button class="secondary-btn" id="surprise-career">Show me an unfamiliar life</button>
+            </div>
+          </div>
+          <div class="lens-card">
+            <span>THE BRIDGE ECG LENS</span>
+            <div class="lens-grid">
+              <b>Fit</b><b>Formation</b><b>Doors</b><b>Risks</b><b>Evidence</b><b>World Need</b><b>Agency</b>
+            </div>
+            <p>A profession is not a label. It is a relationship between a person, a pathway, a work reality and a changing world.</p>
+          </div>
+        </div>
+
+        <div class="stat-row">
+          <div><strong id="career-total">0</strong><span>career dossiers</span></div>
+          <div><strong id="sector-total">0</strong><span>work sectors</span></div>
+          <div><strong>5</strong><span>video angles per career</span></div>
+          <div><strong id="saved-total">0</strong><span>saved careers</span></div>
+        </div>
+
+        <section class="content-section">
+          <div class="section-head"><div><span>START HERE</span><h3>Featured windows into work</h3></div><button class="text-btn" data-jump="cinema">Explore all careers →</button></div>
+          <div id="featured-videos" class="video-grid"></div>
+        </section>
+
+        <section class="content-section two-col">
+          <div class="panel">
+            <div class="section-head"><div><span>YOUR LEARNING QUEUE</span><h3>Saved for deeper study</h3></div></div>
+            <div id="saved-preview" class="compact-list empty-state">Save careers from the Career Cinema to build your queue.</div>
+          </div>
+          <div class="panel daily-panel">
+            <span>TODAY’S 12-MINUTE ECG PRACTICE</span>
+            <ol>
+              <li>Watch one work-life video.</li>
+              <li>Name one unseen difficulty.</li>
+              <li>Trace one plausible Singapore pathway.</li>
+              <li>Ask: what evidence would show real fit?</li>
+            </ol>
+            <button class="secondary-btn" id="daily-career">Choose today’s career</button>
+          </div>
+        </section>
+      </section>
+
+      <section id="cinema" class="view">
+        <div class="page-intro"><span>CAREER CINEMA</span><h2>Watch the life, not only the title.</h2><p>Each dossier opens five video searches: lived day, entry route, practitioner voice, reality check and student/course experience. Search results open on YouTube so the library remains fresh.</p></div>
+        <div class="filter-bar">
+          <label class="search-box">⌕<input id="career-search" type="search" placeholder="Search profession, sector or work setting"></label>
+          <select id="sector-filter" aria-label="Filter by sector"><option value="">All sectors</option></select>
+          <select id="people-filter" aria-label="Filter by people contact"><option value="">Any people contact</option><option>High</option><option>Medium</option><option>Low</option></select>
+          <select id="maths-filter" aria-label="Filter by quantitative demand"><option value="">Any quantitative demand</option><option>High</option><option>Medium</option><option>Low</option></select>
+          <button class="secondary-btn small" id="clear-filters">Clear</button>
+        </div>
+        <div class="result-line"><span id="result-count"></span><button class="text-btn" id="random-result">Open a random dossier</button></div>
+        <div id="career-grid" class="career-grid"></div>
+      </section>
+
+      <section id="sectors" class="view">
+        <div class="page-intro"><span>WORLD OF WORK</span><h2>See career families before choosing job titles.</h2><p>Young people often know only the visible professions. Sector maps reveal adjacent roles, hidden work and different ways to contribute.</p></div>
+        <div id="sector-map" class="sector-map"></div>
+      </section>
+
+      <section id="pathways" class="view">
+        <div class="page-intro"><span>PATHWAY ATLAS</span><h2>Routes branch. They do not end at one decision.</h2><p>Use these as conversation maps, not ranking ladders. Exact admissions and professional requirements change; verify them with official institutions.</p></div>
+        <div id="pathway-grid" class="pathway-grid"></div>
+        <div class="panel pathway-principles">
+          <span>PATHWAY PRINCIPLES</span>
+          <div class="principle-grid">
+            <div><b>Preserve authorship</b><p>The young person should understand why a route fits—not merely comply with an adult’s status map.</p></div>
+            <div><b>Build evidence</b><p>Interest becomes credible through projects, exposure, responsibility, feedback and repeated effort.</p></div>
+            <div><b>Keep doors visible</b><p>Every route opens some possibilities and makes others harder. Name both without panic.</p></div>
+            <div><b>Read the world</b><p>Connect the pathway to real work, industry shifts, human need and changing value.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="compare" class="view">
+        <div class="page-intro"><span>COMPARE WITH DEPTH</span><h2>Three careers. Seven lenses. No shallow winner.</h2><p>Add careers from the Cinema. The comparison is designed to expose trade-offs and questions—not produce a fake score.</p></div>
+        <div id="compare-area" class="compare-area empty-state">Add up to three careers using the “Compare” button on any dossier.</div>
+      </section>
+
+      <section id="guidance" class="view">
+        <div class="page-intro"><span>GUIDANCE STUDIO</span><h2>Practise the conversation behind the choice.</h2><p>Use these student profiles to rehearse calm, knowledgeable ECG guidance. Speak your response aloud before opening the founder prompts.</p></div>
+        <div id="scenario-grid" class="scenario-grid"></div>
+      </section>
+
+      <section id="notebook" class="view">
+        <div class="page-intro"><span>FOUNDER NOTEBOOK</span><h2>Turn watching into usable knowledge.</h2><p>Your notes stay inside this browser using local storage. Export regularly if the material matters.</p></div>
+        <div class="notebook-layout">
+          <form id="note-form" class="panel note-form">
+            <label>Title<input id="note-title" required placeholder="e.g. What nursing actually requires"></label>
+            <label>Type<select id="note-type"><option>Career insight</option><option>Pathway insight</option><option>Founder explanation</option><option>Question to investigate</option><option>Video note</option></select></label>
+            <label>Notes<textarea id="note-body" required rows="9" placeholder="What did I learn? What surprised me? How would I explain this to a parent or young person?"></textarea></label>
+            <button class="primary-btn" type="submit">Save note</button>
+          </form>
+          <div><div class="notebook-tools"><input id="note-search" type="search" placeholder="Search notes"><button class="secondary-btn small" id="export-data">Export</button><label class="secondary-btn small file-label">Import<input id="import-data" type="file" accept="application/json"></label></div><div id="note-list" class="note-list"></div></div>
+        </div>
+      </section>
+
+      <section id="sources" class="view">
+        <div class="page-intro"><span>SOURCE SHELF</span><h2>Begin with official pathways. Add lived voices.</h2><p>Career videos are perspectives, not admissions authorities. Use official Singapore sources to verify current routes, registration and course requirements.</p></div>
+        <div id="source-grid" class="source-grid"></div>
+        <div class="panel source-method"><span>VIDEO DISCERNMENT</span><h3>Before treating one video as “the truth”</h3><div class="principle-grid"><div><b>Locate the speaker</b><p>Country, seniority, employer, specialty and year all shape the experience.</p></div><div><b>Watch contrasts</b><p>Compare a polished recruitment video, an ordinary vlog and a critical reflection.</p></div><div><b>Separate role from workplace</b><p>A difficult employer does not automatically mean a poor profession—and the reverse.</p></div><div><b>Verify the route</b><p>Licensing, admission rules and course structures can change.</p></div></div></div>
+      </section>
+
+      <section id="settings" class="view">
+        <div class="page-intro"><span>SETTINGS & PRIVACY</span><h2>Keep the atlas under your control.</h2><p>This static GitHub Pages build does not send your notes to a backend. Data remains in this browser unless you export it.</p></div>
+        <div class="settings-grid">
+          <div class="panel"><span>SEARCH-ENGINE SHIELD</span><h3>Already switched on</h3><p>Every HTML page contains <code>noindex</code>, <code>nofollow</code>, <code>noarchive</code> and <code>nosnippet</code> directives. A 404 page carries the same directives. No sitemap is generated.</p><p class="warning">This reduces search visibility; it does not make a public GitHub Pages URL private or secret.</p></div>
+          <div class="panel"><span>DEVICE LOCK</span><h3>Casual local privacy</h3><p>Set a PIN for this browser. It deters casual opening on the same device, but it is not server-grade security.</p><label>New PIN<input id="pin-input" type="password" inputmode="numeric" placeholder="Leave blank to disable"></label><button class="secondary-btn" id="save-pin">Save device PIN</button></div>
+          <div class="panel danger-panel"><span>RESET</span><h3>Erase local progress</h3><p>Deletes saved careers, comparison list, notes and the local PIN from this browser.</p><button class="danger-btn" id="reset-app">Reset app data</button></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="career-modal" class="modal" aria-hidden="true"><div class="modal-card"><button class="modal-close" aria-label="Close">×</button><div id="modal-content"></div></div></div>
+  <div id="note-modal" class="modal" aria-hidden="true"><div class="modal-card small-card"><button class="modal-close" aria-label="Close">×</button><h2>Quick note</h2><form id="quick-note-form"><input id="quick-note-title" required placeholder="Title"><textarea id="quick-note-body" required rows="7" placeholder="Capture the insight before it disappears."></textarea><button class="primary-btn" type="submit">Save</button></form></div></div>
+  <div id="lock-screen" class="lock-screen hidden"><div class="lock-card"><div class="brand-mark">B</div><h1>Bridge ECG WorkLives Atlas</h1><p>Enter the device PIN.</p><input id="unlock-pin" type="password" inputmode="numeric" autofocus><button class="primary-btn" id="unlock-btn">Unlock</button><small id="lock-message"></small></div></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
