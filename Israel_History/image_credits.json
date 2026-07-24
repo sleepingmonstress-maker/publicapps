@@ -1,0 +1,65 @@
+{
+  "merneptah": {
+    "file": "assets/merneptah_israel_name.webp",
+    "title": "The name “Israel” in Egyptian hieroglyphs",
+    "caption": "The Merneptah Stele contains the earliest widely accepted extra-biblical reference to a people called Israel in Canaan.",
+    "credit": "Public-domain rendering via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Merenptah_Stele.svg"
+  },
+  "tel_dan": {
+    "file": "assets/tel_dan_stele.webp",
+    "title": "The Tel Dan Stele",
+    "caption": "This ninth-century BCE Aramaic victory inscription is widely read as referring to the “House of David.”",
+    "credit": "Geagea, CC BY-SA 4.0, via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:JRSLM_300116_Tel_Dan_Stele_01.jpg"
+  },
+  "black_obelisk": {
+    "file": "assets/black_obelisk.webp",
+    "title": "The Black Obelisk",
+    "caption": "An Assyrian monument depicts tribute associated with Jehu’s kingdom and places the northern kingdom inside wider imperial history.",
+    "credit": "Daderot, CC0, via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Black_Obelisk_of_Shalmaneser_III,_plaster_cast_of_original_in_the_British_Museum,_827_BC_-_Oriental_Institute_Museum,_University_of_Chicago_-_DSC07615.JPG"
+  },
+  "lachish": {
+    "file": "assets/lachish_relief.webp",
+    "title": "The Assyrian siege of Lachish",
+    "caption": "Sennacherib’s palace reliefs show assault ramps, siege engines, captives and exile from a major Judean city in 701 BCE.",
+    "credit": "Mike Peel, CC BY-SA 4.0, via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Lachish_Relief,_British_Museum_4.jpg"
+  },
+  "cyrus": {
+    "file": "assets/cyrus_cylinder.webp",
+    "title": "The Cyrus Cylinder",
+    "caption": "The inscription illustrates the wider Persian policy world in which displaced peoples and sanctuaries could be restored. It does not mention Judah directly.",
+    "credit": "Mike Peel, CC BY-SA 4.0, via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Cyrus_Cylinder.jpg"
+  },
+  "isaiah_scroll": {
+    "file": "assets/isaiah_scroll.webp",
+    "title": "The Great Isaiah Scroll",
+    "caption": "A nearly complete manuscript of Isaiah from the Second Temple period shows the preservation and transmission of prophetic Scripture.",
+    "credit": "Public-domain artwork reproduction via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:The_Great_Isaiah_Scroll_MS_A_(1QIsa)_-_Google_Art_Project.jpg"
+  },
+  "pilate": {
+    "file": "assets/pilate_stone.webp",
+    "title": "The Pilate inscription",
+    "caption": "This Latin inscription independently attests Pontius Pilate, the Roman prefect connected with Jesus’ crucifixion.",
+    "credit": "BRBurton, CC0, via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Pontius_Pilate_Inscription.JPG"
+  },
+  "arch_titus": {
+    "file": "assets/arch_titus.webp",
+    "title": "The Arch of Titus relief",
+    "caption": "Roman triumphal art depicts temple spoils, including the menorah, after Jerusalem’s destruction in 70 CE.",
+    "credit": "Greg, public domain, via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Titusbuen_i_Rom_med_relief_med_Menorah%27en.jpg"
+  },
+  "bar_kokhba": {
+    "file": "assets/bar_kokhba_coin.webp",
+    "title": "A Bar Kokhba revolt coin",
+    "caption": "The coin’s slogans about the freedom of Jerusalem reveal the revolt’s national and messianic intensity.",
+    "credit": "IsraelXKV8R, CC BY-SA 3.0, via Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Bar_Kokhba_Coin.jpg"
+  }
+}

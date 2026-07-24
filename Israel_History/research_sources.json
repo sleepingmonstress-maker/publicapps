@@ -1,0 +1,602 @@
+[
+  {
+    "id": "method-saa",
+    "title": "Society for American Archaeology — What Is Archaeology?",
+    "institution": "Society for American Archaeology",
+    "type": "Research method",
+    "url": "https://www.saa.org/about-archaeology/what-is-archaeology",
+    "note": "Explains how archaeology reconstructs human lives through material remains and context."
+  },
+  {
+    "id": "method-bibleodyssey",
+    "title": "How Does the Hebrew Bible Relate to the Ancient Near Eastern World?",
+    "institution": "Bible Odyssey / Society of Biblical Literature",
+    "type": "Historical context",
+    "url": "https://www.bibleodyssey.org/articles/how-does-the-hebrew-bible-relate-to-the-ancient-near-eastern-world/",
+    "note": "Introduces the Bible within its ancient cultural environment."
+  },
+  {
+    "id": "ane-creation",
+    "title": "The Creation Story in Its Ancient Near Eastern Context",
+    "institution": "Bible Odyssey / Society of Biblical Literature",
+    "type": "Comparative texts",
+    "url": "https://www.bibleodyssey.org/articles/the-creation-story-in-its-ancient-near-eastern-context/",
+    "note": "Situates Genesis creation language beside ancient Near Eastern traditions."
+  },
+  {
+    "id": "ane-flood",
+    "title": "Atrahasis",
+    "institution": "Bible Odyssey / Society of Biblical Literature",
+    "type": "Comparative texts",
+    "url": "https://www.bibleodyssey.org/articles/atrahasis/",
+    "note": "Ancient Mesopotamian creation-and-flood tradition used for cultural comparison."
+  },
+  {
+    "id": "exodus-bas",
+    "title": "The Exodus: Fact or Fiction?",
+    "institution": "Biblical Archaeology Society",
+    "type": "Archaeology and debate",
+    "url": "https://www.biblicalarchaeology.org/daily/biblical-topics/exodus/exodus-fact-or-fiction/",
+    "note": "Surveys Egyptian place names, Merneptah and limits of archaeological proof."
+  },
+  {
+    "id": "merneptah-bas",
+    "title": "Does the Merneptah Stele Contain the First Mention of Israel?",
+    "institution": "Biblical Archaeology Society",
+    "type": "Inscription",
+    "url": "https://www.biblicalarchaeology.org/daily/ancient-cultures/ancient-israel/does-the-merneptah-stele-contain-the-first-mention-of-israel/",
+    "note": "Discusses the earliest widely accepted extra-biblical reference to Israel."
+  },
+  {
+    "id": "early-israel",
+    "title": "Where Did the Early Israelites Come From?",
+    "institution": "Biblical Archaeology Society Library",
+    "type": "Settlement archaeology",
+    "url": "https://library.biblicalarchaeology.org/collections/where-did-early-israelites-come/",
+    "note": "Presents competing models for Israel’s emergence in the highlands."
+  },
+  {
+    "id": "hazor",
+    "title": "Hazor",
+    "institution": "Bible Odyssey / Society of Biblical Literature",
+    "type": "Site archaeology",
+    "url": "https://www.bibleodyssey.org/places/related-articles/hazor/",
+    "note": "Reviews Hazor’s destruction and the uncertainty over its destroyers."
+  },
+  {
+    "id": "philistines-bas",
+    "title": "Who Were the Philistines?",
+    "institution": "Biblical Archaeology Society",
+    "type": "Material culture",
+    "url": "https://www.biblicalarchaeology.org/daily/people-cultures-in-the-bible/people-in-the-bible/who-were-philistines/",
+    "note": "Explains Philistine settlement and material culture."
+  },
+  {
+    "id": "philistine-dna",
+    "title": "Ancient DNA sheds light on the genetic origins of early Iron Age Philistines",
+    "institution": "Science Advances / PMC",
+    "type": "Ancient DNA",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6609216/",
+    "note": "Finds a transient European-related genetic signal at early Iron Age Ashkelon."
+  },
+  {
+    "id": "canaanite-dna",
+    "title": "The Genomic History of the Bronze Age Southern Levant",
+    "institution": "Cell",
+    "type": "Ancient DNA",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(20)30487-6",
+    "note": "Studies genetic relationships among Bronze Age Canaanite populations and later groups."
+  },
+  {
+    "id": "tel-dan",
+    "title": "Tel Dan Stele — House of David",
+    "institution": "The Jewish Museum",
+    "type": "Royal inscription",
+    "url": "https://thejewishmuseum.org/press/tel-dan-stele-press-release/",
+    "note": "Describes the 9th-century BCE inscription widely read as referring to the House of David."
+  },
+  {
+    "id": "mesha-louvre",
+    "title": "The Mesha Stele",
+    "institution": "Musée du Louvre",
+    "type": "Royal inscription",
+    "url": "https://collections.louvre.fr/en/ark:/53355/cl010120339",
+    "note": "Moabite royal monument naming Omri and conflict with Israel."
+  },
+  {
+    "id": "black-obelisk",
+    "title": "Black Obelisk of Shalmaneser III",
+    "institution": "British Museum",
+    "type": "Imperial relief and inscription",
+    "url": "https://www.britishmuseum.org/collection/object/W_1848-1104-1",
+    "note": "Includes tribute from Jehu or his emissary, labelled in relation to the House of Omri."
+  },
+  {
+    "id": "sennacherib-prism",
+    "title": "Sennacherib’s Prism",
+    "institution": "British Museum",
+    "type": "Imperial annal",
+    "url": "https://www.britishmuseum.org/collection/object/W_1855-1003-1",
+    "note": "Assyrian account of Sennacherib’s campaigns, including Hezekiah and Judah."
+  },
+  {
+    "id": "lachish-relief",
+    "title": "Siege of Lachish Reliefs",
+    "institution": "British Museum",
+    "type": "Imperial relief",
+    "url": "https://www.britishmuseum.org/collection/object/W_1856-0909-14",
+    "note": "Visual Assyrian record of the capture of Lachish in 701 BCE."
+  },
+  {
+    "id": "siloam-dating",
+    "title": "Radiometric dating of the Siloam Tunnel",
+    "institution": "Nature / PubMed",
+    "type": "Radiocarbon and uranium-series dating",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12968177/",
+    "note": "Scientific dating places the tunnel around the late 8th century BCE."
+  },
+  {
+    "id": "assyrian-met",
+    "title": "Assyria, 1365–609 B.C.",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Empire history",
+    "url": "https://www.metmuseum.org/essays/assyria-1365-609-b-c",
+    "note": "Overview of Neo-Assyrian expansion, art and imperial power."
+  },
+  {
+    "id": "nineveh-fall",
+    "title": "Assyria to Iberia: Nineveh and the Fall of Assyria",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Empire history",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/nineveh",
+    "note": "Explains Nineveh’s fall in 612 BCE and Assyria’s final defeat by 605 BCE."
+  },
+  {
+    "id": "babylon-chronicle",
+    "title": "Babylonian Chronicle recording the capture of Jerusalem",
+    "institution": "British Museum",
+    "type": "Cuneiform chronicle",
+    "url": "https://www.britishmuseum.org/collection/object/W_1896-0409-51",
+    "note": "Records Nebuchadnezzar’s 597 BCE campaign and capture of Jerusalem."
+  },
+  {
+    "id": "babylon-met",
+    "title": "Babylon",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Empire and city history",
+    "url": "https://www.metmuseum.org/essays/babylon",
+    "note": "Historical context for Babylon at its 6th-century BCE height."
+  },
+  {
+    "id": "al-yahudu",
+    "title": "The Al-Yahudu Tablets",
+    "institution": "Tyndale House",
+    "type": "Cuneiform legal documents",
+    "url": "https://tyndalehouse.com/2023/03/31/the-al-yahudu-tablets/",
+    "note": "Documents everyday life among Judean exiles and descendants in Babylonia."
+  },
+  {
+    "id": "cyrus-cylinder",
+    "title": "The Cyrus Cylinder",
+    "institution": "British Museum",
+    "type": "Royal inscription",
+    "url": "https://www.britishmuseum.org/collection/object/W_1880-0617-1941",
+    "note": "Provides Persian imperial context for restoration policies after Cyrus conquered Babylon."
+  },
+  {
+    "id": "persia-met",
+    "title": "The Achaemenid Persian Empire",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Empire history",
+    "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c",
+    "note": "Overview of Persian administration and imperial culture."
+  },
+  {
+    "id": "alexander-met",
+    "title": "The Rise of Macedonia and the Conquests of Alexander the Great",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Empire history",
+    "url": "https://www.metmuseum.org/essays/the-rise-of-macedonia-and-the-conquests-of-alexander-the-great",
+    "note": "Explains Alexander’s conquest of the Persian Empire."
+  },
+  {
+    "id": "seleucid-met",
+    "title": "The Seleucid Empire (323–64 B.C.)",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Empire history",
+    "url": "https://www.metmuseum.org/essays/the-seleucid-empire-323-64-b-c",
+    "note": "Covers Antiochus IV, the Maccabean response and Rome’s final absorption of Seleucid Syria."
+  },
+  {
+    "id": "hanukkah-met",
+    "title": "The Hanukkah Menorah",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Historical festival context",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2001/hanukkah-menorah",
+    "note": "Connects Hanukkah with the Maccabean temple rededication in 164 BCE."
+  },
+  {
+    "id": "pilate-coin",
+    "title": "Coin issued under Pontius Pilate",
+    "institution": "British Museum",
+    "type": "Numismatics",
+    "url": "https://www.britishmuseum.org/collection/object/C_1908-0110-534",
+    "note": "Material attestation of Pilate’s governorship under Tiberius."
+  },
+  {
+    "id": "pilate-street",
+    "title": "Monumental Building Projects in Jerusalem in the Days of Pontius Pilate",
+    "institution": "Israel Antiquities Authority",
+    "type": "Excavation and numismatics",
+    "url": "https://hadashot.iaa.org.il/Report_Detail_Eng.aspx?id=26183",
+    "note": "Uses coin evidence to date Jerusalem’s monumental stepped street to Pilate’s administration."
+  },
+  {
+    "id": "arch-titus",
+    "title": "The Flavian Dynasty (69–96 A.D.)",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Roman history and monument",
+    "url": "https://www.metmuseum.org/essays/the-flavian-dynasty-69-96",
+    "note": "Links Titus with Jerusalem’s destruction and the commemorative Arch of Titus."
+  },
+  {
+    "id": "dss-dna",
+    "title": "Illuminating Genetic Mysteries of the Dead Sea Scrolls",
+    "institution": "Cell / PMC",
+    "type": "Ancient DNA and manuscripts",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7297093/",
+    "note": "Uses parchment DNA to identify relationships among manuscript fragments."
+  },
+  {
+    "id": "bar-kokhba-letter",
+    "title": "Bar Kokhba Letter, 132–135 CE",
+    "institution": "Center for Online Judaic Studies",
+    "type": "Documentary archaeology",
+    "url": "https://cojs.org/bar_kokhba_letter-_132-135_ce/",
+    "note": "A letter discovered in the Cave of Letters, directly connected to the revolt."
+  },
+  {
+    "id": "byzantine-judaism",
+    "title": "Judaism During the Byzantine Period",
+    "institution": "Metropolitan Museum of Art",
+    "type": "Diaspora and synagogue archaeology",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2012/byzantium-and-islam/blog/topical-essays/posts/judaism",
+    "note": "Documents synagogue life and Jewish communities in the land and diaspora."
+  },
+  {
+    "id": "balfour-archives",
+    "title": "The Balfour Declaration",
+    "institution": "The National Archives (UK)",
+    "type": "Primary diplomatic document",
+    "url": "https://www.nationalarchives.gov.uk/education/resources/balfour-declaration/",
+    "note": "Archive resource for the 1917 declaration and its political context."
+  },
+  {
+    "id": "holocaust-ushmm",
+    "title": "Holocaust Survivors and the Establishment of the State of Israel",
+    "institution": "United States Holocaust Memorial Museum",
+    "type": "Modern historical synthesis",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/postwar-refugee-crisis-and-the-establishment-of-the-state-of-israel",
+    "note": "Connects postwar Jewish displacement, partition and Israel’s establishment."
+  },
+  {
+    "id": "un-181",
+    "title": "United Nations General Assembly Resolution 181 (II)",
+    "institution": "United Nations",
+    "type": "Primary diplomatic document",
+    "url": "https://www.un.org/unispal/document/auto-insert-185393/",
+    "note": "1947 recommendation to partition Mandatory Palestine."
+  },
+  {
+    "id": "un-history",
+    "title": "History of the Question of Palestine",
+    "institution": "United Nations",
+    "type": "Modern historical archive",
+    "url": "https://www.un.org/unispal/history/",
+    "note": "UN documentary timeline for Mandate, partition, war, refugees and diplomacy."
+  },
+  {
+    "id": "un-242",
+    "title": "United Nations Security Council Resolution 242",
+    "institution": "United Nations",
+    "type": "Primary diplomatic document",
+    "url": "https://digitallibrary.un.org/record/90717",
+    "note": "Land-for-peace framework after the 1967 war."
+  },
+  {
+    "id": "oslo-state",
+    "title": "The Oslo Accords and the Arab-Israeli Peace Process",
+    "institution": "U.S. Department of State, Office of the Historian",
+    "type": "Diplomatic history",
+    "url": "https://history.state.gov/milestones/1993-2000/oslo",
+    "note": "Explains mutual recognition, interim self-government and breakdown of the process."
+  },
+  {
+    "id": "ocha-2026",
+    "title": "Occupied Palestinian Territory — current humanitarian updates",
+    "institution": "United Nations OCHA",
+    "type": "Current humanitarian record",
+    "url": "https://www.ochaopt.org/",
+    "note": "Dated operational reporting for Gaza and the West Bank; figures change and require refresh."
+  },
+  {
+    "id": "icj-case",
+    "title": "South Africa v. Israel — ICJ case page",
+    "institution": "International Court of Justice",
+    "type": "Current legal proceedings",
+    "url": "https://www.icj-cij.org/case/192",
+    "note": "Official case record; allegations, provisional measures and final legal findings must be distinguished."
+  },
+  {
+    "id": "icc-palestine",
+    "title": "Situation in the State of Palestine",
+    "institution": "International Criminal Court",
+    "type": "Current legal proceedings",
+    "url": "https://www.icc-cpi.int/palestine",
+    "note": "Official ICC page for investigation and court decisions."
+  },
+  {
+    "id": "psalms-usccb",
+    "title": "Introduction to the Psalms",
+    "institution": "USCCB",
+    "type": "Biblical theology and literary genre",
+    "url": "https://bible.usccb.org/bible/psalms/0",
+    "note": "Presents the Psalter as Israel’s school of prayer across praise, lament and thanksgiving."
+  },
+  {
+    "id": "amos-theology",
+    "title": "The Prophet Amos and Social Injustice",
+    "institution": "TheTorah.com",
+    "type": "Text and historical context",
+    "url": "https://www.thetorah.com/article/amos-and-social-injustice",
+    "note": "Explores Amos’s critique of wealth, exploitation and empty worship."
+  },
+  {
+    "id": "ezekiel-babylon",
+    "title": "Ezekiel in Babylonian Intellectual Context",
+    "institution": "TheTorah.com",
+    "type": "Text and exile context",
+    "url": "https://www.thetorah.com/article/ezekiel-the-exile-and-babylonian-scholarly-culture",
+    "note": "Explores how Ezekiel’s imagery engages the exilic Babylonian environment."
+  },
+  {
+    "id": "timeline-prophets",
+    "title": "Guide to the Kings and Prophets of Israel and Judah",
+    "institution": "Bible Gateway",
+    "type": "Prophet and king chronology",
+    "url": "https://www.biblegateway.com/learn/topics-themes/explainers/kings-prophets-israel-judah/",
+    "note": "A compact mapping of kings, prophets and passages; dates are explicitly treated as approximate and contested."
+  },
+  {
+    "id": "history-usccb",
+    "title": "Historical Introduction to the Historical Books",
+    "institution": "USCCB",
+    "type": "Biblical historiography",
+    "url": "https://bible.usccb.org/bible/historicalintroduction/0",
+    "note": "Explains the covenant fidelity/infidelity logic of the Deuteronomistic History and distinguishes theological history from modern historiography."
+  },
+  {
+    "id": "isaiah-yale",
+    "title": "First Isaiah — Historical Context",
+    "institution": "Yale Bible Study",
+    "type": "Prophet historical context",
+    "url": "https://yalebiblestudy.org/courses/first-isaiah/lessons/historical-context-study-guide/",
+    "note": "Maps Isaiah 1–39 to the Assyrian period and explains later Isaianic layers and Zion/Davidic theology."
+  },
+  {
+    "id": "esch-apocalypse",
+    "title": "What Is an Apocalypse?",
+    "institution": "Bible Odyssey / Society of Biblical Literature",
+    "type": "Apocalyptic genre",
+    "url": "https://www.bibleodyssey.org/articles/what-is-an-apocalypse/",
+    "note": "Defines apocalypse as ancient revelatory literature disclosing heavenly realities and the meaning of history."
+  },
+  {
+    "id": "esch-revelation-views",
+    "title": "Interpreting Revelation",
+    "institution": "Ligonier Ministries",
+    "type": "Five interpretive approaches",
+    "url": "https://learn.ligonier.org/articles/interpreting-revelation",
+    "note": "Surveys futurist, preterist, historicist, idealist and eclectic approaches, including strengths and weaknesses."
+  },
+  {
+    "id": "esch-millennium",
+    "title": "Views of the Millennium",
+    "institution": "The Gospel Coalition",
+    "type": "Millennial frameworks",
+    "url": "https://www.thegospelcoalition.org/essay/views-of-the-millennium/",
+    "note": "Compares amillennial, postmillennial and premillennial readings of Revelation 20."
+  },
+  {
+    "id": "esch-dispensational",
+    "title": "Dispensational Theology",
+    "institution": "The Gospel Coalition",
+    "type": "Israel/church and futurist framework",
+    "url": "https://www.thegospelcoalition.org/essay/dispensational-theology/",
+    "note": "Explains the Israel–church distinction, literal reading of national promises and a future for ethnic/national Israel."
+  },
+  {
+    "id": "esch-covenant",
+    "title": "Covenant Theology",
+    "institution": "Ligonier Ministries",
+    "type": "Covenantal framework",
+    "url": "https://learn.ligonier.org/guides/covenant-theology",
+    "note": "Presents the continuity of God’s covenant purpose, the new covenant inaugurated in Christ and consummated at his return."
+  },
+  {
+    "id": "esch-progressive",
+    "title": "Progressive Covenantalism and New Covenant Theology",
+    "institution": "The Gospel Coalition",
+    "type": "Christ-centred covenant framework",
+    "url": "https://www.thegospelcoalition.org/essay/progressive-covenantalism-and-new-covenant-theology/",
+    "note": "Locates the covenants in one unfolding plan fulfilled in Christ and applied to the new-covenant people."
+  },
+  {
+    "id": "esch-israel-church",
+    "title": "The Relationship between Israel and the Church",
+    "institution": "The Gospel Coalition",
+    "type": "Romans 9–11 and Israel/church",
+    "url": "https://www.thegospelcoalition.org/essay/the-relationship-between-israel-and-the-church/",
+    "note": "Examines how promises to Israel and the inclusion of the nations relate within the church and Romans 9–11."
+  },
+  {
+    "id": "esch-inaugurated",
+    "title": "Already, Not Yet",
+    "institution": "Desiring God",
+    "type": "Inaugurated eschatology",
+    "url": "https://www.desiringgod.org/articles/already-not-yet",
+    "note": "Introduces the widely used Christian framework in which the kingdom is inaugurated in Christ but awaits consummation."
+  },
+  {
+    "id": "esch-jewish",
+    "title": "Afterlife and the Messiah 101",
+    "institution": "My Jewish Learning",
+    "type": "Jewish eschatology",
+    "url": "https://www.myjewishlearning.com/article/afterlife-the-messiah-101/",
+    "note": "Surveys Jewish expectations concerning Messiah, resurrection and the world to come; Jewish traditions are diverse."
+  },
+  {
+    "id": "esch-jewish-jerusalem",
+    "title": "Praying for a Rebuilt and Redeemed Jerusalem",
+    "institution": "My Jewish Learning",
+    "type": "Jewish messianic hope",
+    "url": "https://www.myjewishlearning.com/article/praying-for-a-rebuilt-and-redeemed-jerusalem/",
+    "note": "Shows how restoration of Jerusalem and Davidic hope remain embedded in Jewish liturgy and eschatological expectation."
+  },
+  {
+    "id": "esch-catholic",
+    "title": "Compendium of the Catechism of the Catholic Church",
+    "institution": "The Holy See",
+    "type": "Catholic canonical fulfilment",
+    "url": "https://www.vatican.va/archive/compendium_ccc/documents/archive_2005_compendium-ccc_en.html",
+    "note": "Frames Israel, the prophets, Messiah, Christ’s return, resurrection and final judgment within Catholic doctrine."
+  },
+  {
+    "id": "esch-millennium-sbl",
+    "title": "Millennium",
+    "institution": "Bible Odyssey / Society of Biblical Literature",
+    "type": "Historical study of Revelation 20",
+    "url": "https://www.bibleodyssey.org/articles/millennium/",
+    "note": "Places the thousand-year reign in the history of early Christian end-time interpretation."
+  },
+  {
+    "id": "esch-resurrection",
+    "title": "Resurrection",
+    "institution": "Bible Odyssey / Society of Biblical Literature",
+    "type": "Second Temple eschatology",
+    "url": "https://www.bibleodyssey.org/articles/resurrection/",
+    "note": "Describes resurrection as an end-time expectation in some Jewish apocalyptic settings around the time of Jesus."
+  },
+  {
+    "id": "psalms-yale-intro",
+    "title": "What Are the Psalms?",
+    "institution": "Yale Bible Study",
+    "type": "Psalms and historical setting",
+    "url": "https://yalebiblestudy.org/courses/psalms/lessons/what-are-the-psalms-study-guide/",
+    "note": "Explains that Psalm superscriptions and historical settings require care; some psalms clearly reflect temple or exilic settings later than David."
+  },
+  {
+    "id": "psalms-yale-royal",
+    "title": "Royal Psalms",
+    "institution": "Yale Bible Study",
+    "type": "Royal and messianic Psalms",
+    "url": "https://yalebiblestudy.org/courses/psalms/lessons/the-royal-psalms-study-guide/",
+    "note": "Places royal psalms in Judah’s monarchy and traces their later importance for restored-Davidic and messianic hope."
+  },
+  {
+    "id": "esch-future-israel",
+    "title": "The Future of Ethnic Israel",
+    "institution": "The Gospel Coalition",
+    "type": "Romans 9–11 and future Israel",
+    "url": "https://www.thegospelcoalition.org/essay/the-future-of-ethnic-israel/",
+    "note": "Surveys the debated question of a future for ethnic Israel and situates major covenantal and dispensational differences around Romans 11."
+  },
+  {
+    "id": "esch-jewish-messianism",
+    "title": "Jewish Messianism",
+    "institution": "My Jewish Learning",
+    "type": "Jewish eschatology",
+    "url": "https://www.myjewishlearning.com/article/jewish-messianism/",
+    "note": "Introduces traditional Jewish expectations involving redemption of Israel, peace, Jerusalem, resurrection and the messianic age, while noting diversity within Judaism."
+  },
+  {
+    "id": "psalm-usccb",
+    "title": "USCCB Book of Psalms — Full text and chapter notes",
+    "institution": "United States Conference of Catholic Bishops",
+    "type": "Biblical text and notes",
+    "url": "https://bible.usccb.org/bible/psalms/0",
+    "note": "Full Psalm text with introductions and chapter-level notes."
+  },
+  {
+    "id": "psalm-bibleproject",
+    "title": "BibleProject — Book of Psalms guide",
+    "institution": "BibleProject",
+    "type": "Visual biblical-theology resource",
+    "url": "https://bibleproject.com/guides/book-of-psalms/",
+    "note": "Literary design, themes, videos and further Psalm resources."
+  },
+  {
+    "id": "psalm-yale-course",
+    "title": "Yale Bible Study — Psalms",
+    "institution": "Yale Divinity School",
+    "type": "Academic course",
+    "url": "https://yalebiblestudy.org/courses/psalms/",
+    "note": "Free study of Psalm genres, poetry, history and theology."
+  },
+  {
+    "id": "psalm-sefaria",
+    "title": "Sefaria — Psalms in Hebrew and English",
+    "institution": "Sefaria",
+    "type": "Jewish textual library",
+    "url": "https://www.sefaria.org/Psalms.1?lang=bi",
+    "note": "Hebrew/English Tanakh text and connected Jewish sources."
+  },
+  {
+    "id": "theme-day-lord",
+    "title": "BibleProject — Day of the Lord",
+    "institution": "BibleProject",
+    "type": "Visual biblical-theme resource",
+    "url": "https://bibleproject.com/videos/day-of-the-lord/",
+    "note": "Traces historical days of judgment and the final horizon of renewal."
+  },
+  {
+    "id": "theme-covenants",
+    "title": "BibleProject — Covenants",
+    "institution": "BibleProject",
+    "type": "Visual biblical-theme resource",
+    "url": "https://bibleproject.com/videos/covenants/",
+    "note": "Traces covenant partnership across the biblical story."
+  },
+  {
+    "id": "theme-messiah",
+    "title": "BibleProject — The Messiah",
+    "institution": "BibleProject",
+    "type": "Visual biblical-theme resource",
+    "url": "https://bibleproject.com/videos/messiah/",
+    "note": "Traces messianic promise from Genesis through David and Jesus."
+  },
+  {
+    "id": "theme-temple",
+    "title": "BibleProject — Temple",
+    "institution": "BibleProject",
+    "type": "Visual biblical-theme resource",
+    "url": "https://bibleproject.com/videos/temple/",
+    "note": "Traces divine presence, temple and renewed creation."
+  },
+  {
+    "id": "esch-yale-revelation",
+    "title": "Yale Bible Study — Revelation",
+    "institution": "Yale Divinity School",
+    "type": "Academic course",
+    "url": "https://yalebiblestudy.org/courses/revelation/",
+    "note": "Introduces apocalyptic genre, context and interpretation."
+  },
+  {
+    "id": "esch-jewish-library",
+    "title": "My Jewish Learning — Jewish Eschatology",
+    "institution": "My Jewish Learning",
+    "type": "Jewish interpretive resource",
+    "url": "https://www.myjewishlearning.com/topics/jewish-eschatology/",
+    "note": "Introduces diverse Jewish teachings on redemption, Messiah and the age to come."
+  }
+]
