@@ -1,6 +1,8 @@
 /* Phone-native journey. The desktop matrix remains intact above 767px. */
 let mobileTab='journey', mobileLibraryTab='prophets', mobileQuery='';
 const MOBILE_BREAKPOINT=767;
+const mobileOpenLayers=new Set();
+function rememberMobileLayer(el){const key=el?.dataset?.layerKey;if(!key)return;if(el.open)mobileOpenLayers.add(key);else mobileOpenLayers.delete(key)}
 function isMobileJourney(){return window.innerWidth<=MOBILE_BREAKPOINT&&!document.body.classList.contains('mobile-matrix-mode')}
 function currentPeriod(){return filtered[idx]||DATA[0]}
 function mobileEsc(s){return esc(s)}
@@ -9,7 +11,7 @@ function setMobileMatrix(on){document.body.classList.toggle('mobile-matrix-mode'
 function mobileOpenPeriod(dataIndex){filtered=[...DATA];idx=Math.max(0,Math.min(dataIndex,DATA.length-1));mobileTab='journey';render();requestAnimationFrame(()=>document.getElementById('mobileExperience')?.scrollIntoView({behavior:'smooth',block:'start'}))}
 function mobileMove(delta){const x=currentPeriod(),pos=DATA.findIndex(v=>v.id===x.id),next=Math.max(0,Math.min(DATA.length-1,pos+delta));mobileOpenPeriod(next)}
 function mobileSearchChanged(value){mobileQuery=value;renderMobile()}
-function mobileLayer(cls,icon,title,summary,body,open=false){return `<details class="mobileLayer ${cls}" ${open?'open':''}><summary><span class="layerIcon">${icon}</span><span class="layerSummary"><strong>${mobileEsc(title)}</strong><small>${mobileEsc(summary)}</small></span><span class="chev">›</span></summary><div class="mobileLayerBody">${body}</div></details>`}
+function mobileLayer(cls,icon,title,summary,body,open=false){const key=`${currentPeriod().id}:${cls}`,shouldOpen=open||mobileOpenLayers.has(key);return `<details class="mobileLayer ${cls}" data-layer-key="${key}" ontoggle="rememberMobileLayer(this)" ${shouldOpen?'open':''}><summary><span class="layerIcon">${icon}</span><span class="layerSummary"><strong>${mobileEsc(title)}</strong><small>${mobileEsc(summary)}</small></span><span class="chev">›</span></summary><div class="mobileLayerBody">${body}</div></details>`}
 function mobileResourceButton(cls,title,note,onclick){return `<button class="mobileResource ${cls||''}" onclick="${onclick}"><strong>${mobileEsc(title)}</strong>${note?`<small>${mobileEsc(note)}</small>`:''}</button>`}
 function mobileHero(x){return `<section class="mobileCard"><div class="mobileKicker">${mobileEsc(x.era)} · ${mobileEsc(x.year)}</div><h2 class="mobileTitle">${mobileEsc(x.title)}</h2><p class="mobileLead">${termify(mobileEsc(x.novice?.plain||x.summary))}</p><div class="mobileHeroVisual">${heroVisual(x)}</div><div class="mobileContext"><div><strong>Before</strong>${mobileEsc(x.novice?.before||'See the previous portal.')}</div><div><strong>After</strong>${mobileEsc(x.novice?.after||'See the next portal.')}</div><div><strong>The big question</strong>${mobileEsc(x.novice?.bigQuestion||'What happened, why, and what remained unresolved?')}</div></div></section>`}
 function mobileArc(x){const prophet=x.prophets.length?`${x.prophets.slice(0,3).map(propName).join(', ')} interpret the crisis.`:'The biblical narrator supplies the theological diagnosis.';const steps=[['1','Setting',x.summary,''],['2','Pressure or sin',(x.sinNature||x.sins).slice(0,4).join(' • '),'bad'],['3','Why suffering followed',x.causal.why,'bad'],['4','Prophetic diagnosis',prophet,'purple'],['5','God’s action',x.god,'good'],['6','Human response and result',x.response,'']];return `<section class="mobileCard"><div class="mobileKicker">The logic of this period</div><h3>Follow the story, step by step</h3><div class="mobileArc">${steps.map(([n,h,t,c])=>`<div class="arcStep ${c}" data-n="${n}"><strong>${mobileEsc(h)}</strong><span>${mobileEsc(t)}</span></div>`).join('')}</div></section>`}
@@ -37,5 +39,23 @@ const desktopRender=render;render=function(){desktopRender();renderMobile()};
 const desktopSetLevel=setLevel;setLevel=function(v){desktopSetLevel(v);renderMobile()};
 const desktopStartJourney=startJourney;startJourney=function(){if(window.innerWidth<=MOBILE_BREAKPOINT){filtered=[...DATA];idx=0;activeTab='learn';mobileTab='journey';render();document.getElementById('mobileExperience')?.scrollIntoView({behavior:'smooth',block:'start'})}else desktopStartJourney()};
 const desktopGo=go;go=function(i,scroll=false){if(isMobileJourney()){if(i<0||i>=filtered.length)return;idx=i;mobileTab='journey';render();if(scroll)document.getElementById('mobileExperience')?.scrollIntoView({behavior:'smooth',block:'start'})}else desktopGo(i,scroll)};
-window.addEventListener('resize',()=>{if(window.innerWidth>MOBILE_BREAKPOINT)document.body.classList.remove('mobile-matrix-mode');renderMobile()});
+let lastLayoutWidth=document.documentElement.clientWidth;
+let lastMobileState=lastLayoutWidth<=MOBILE_BREAKPOINT;
+let mobileResizeTimer=0;
+window.addEventListener('resize',()=>{
+ const width=document.documentElement.clientWidth;
+ const mobileNow=width<=MOBILE_BREAKPOINT;
+ const crossedBreakpoint=mobileNow!==lastMobileState;
+ const meaningfulWidthChange=Math.abs(width-lastLayoutWidth)>=16;
+ // Mobile address bars and browser controls frequently change viewport height.
+ // Do not rebuild the journey for height-only changes: rebuilding closes open layers.
+ if(!crossedBreakpoint&&!meaningfulWidthChange)return;
+ clearTimeout(mobileResizeTimer);
+ mobileResizeTimer=setTimeout(()=>{
+   lastLayoutWidth=document.documentElement.clientWidth;
+   lastMobileState=lastLayoutWidth<=MOBILE_BREAKPOINT;
+   if(!lastMobileState)document.body.classList.remove('mobile-matrix-mode');
+   if(!document.getElementById('modal')?.classList.contains('open'))renderMobile();
+ },140);
+});
 renderMobile();

@@ -105,9 +105,42 @@ function psalmHumanFocus(type,n){
 function cleanPsalmLabel(s){const first=s.split('—')[0].trim();return first.replace(/^Psalms\s+/i,'Psalms ').replace(/^Psalm\s+/i,'Psalm ')}
 function resourceLink(url,title,note){return `<a class="resourceLink" href="${url}" target="_blank" rel="noopener"><strong>${esc(title)} ↗</strong><small>${esc(note)}</small></a>`}
 function resourceHeader(kicker,title,subtitle){return `<div class="resourceHeader"><button class="close" onclick="closeModal()">×</button><div class="era">${esc(kicker)}</div><h2>${esc(title)}</h2><div>${esc(subtitle||'')}</div></div>`}
-function openResourceModal(html){const box=document.querySelector('.modalBox');box.classList.add('resourceBox');document.getElementById('modalContent').innerHTML=html;document.getElementById('modal').classList.add('open')}
-function openModal(html){const box=document.querySelector('.modalBox');box.classList.remove('resourceBox');document.getElementById('modalContent').innerHTML=html;document.getElementById('modal').classList.add('open')}
-function closeModal(){document.getElementById('modal').classList.remove('open');document.querySelector('.modalBox')?.classList.remove('resourceBox')}
+let modalOpenedAt=0;
+let modalReturnFocus=null;
+function showModalContent(html,isResource=false){
+ const modal=document.getElementById('modal'),box=document.querySelector('.modalBox'),content=document.getElementById('modalContent');
+ if(!modal||!box||!content)return;
+ modalReturnFocus=document.activeElement instanceof HTMLElement?document.activeElement:null;
+ box.classList.toggle('resourceBox',!!isResource);
+ content.innerHTML=html;
+ box.scrollTop=0;
+ modalOpenedAt=performance.now();
+ modal.classList.add('open');
+ modal.setAttribute('aria-hidden','false');
+ document.body.classList.add('modal-open');
+ requestAnimationFrame(()=>modal.querySelector('.modalPrimaryClose,.resourceHeader .close,button,a,[tabindex]:not([tabindex="-1"])')?.focus({preventScroll:true}));
+}
+function openResourceModal(html){showModalContent(html,true)}
+function openModal(html){showModalContent(html,false)}
+function handleModalBackdrop(event){
+ if(event.target!==event.currentTarget)return;
+ // On phones, accidental backdrop taps are common while the browser chrome is moving.
+ // Require the explicit close control instead of dismissing the study unexpectedly.
+ if(window.matchMedia('(max-width: 767px)').matches)return;
+ if(performance.now()-modalOpenedAt<500)return;
+ closeModal();
+}
+function closeModal(){
+ const modal=document.getElementById('modal');
+ if(!modal)return;
+ modal.classList.remove('open');
+ modal.setAttribute('aria-hidden','true');
+ document.body.classList.remove('modal-open');
+ document.querySelector('.modalBox')?.classList.remove('resourceBox');
+ const returnTo=modalReturnFocus;modalReturnFocus=null;
+ if(returnTo&&document.contains(returnTo))requestAnimationFrame(()=>returnTo.focus({preventScroll:true}));
+}
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.getElementById('modal')?.classList.contains('open')){event.preventDefault();closeModal();}});
 function passageUrl(ref){return `https://www.biblegateway.com/passage/?search=${encodeURIComponent(ref)}&version=NIV`}
 function openPsalmResource(periodId,index){const x=DATA.find(v=>v.id===periodId);if(!x)return;const s=x.psalms[index];const n=psalmNo(s);const label=cleanPsalmLabel(s);const relation=s.split('—')[1]?.trim()||'This Psalm gives language for the theological and emotional reality of the period.';const type=psalmType(n);const readRef=label.replace(/\s*\(.*$/,'');const usccb=n?`https://bible.usccb.org/bible/psalms/${n}`:passageUrl(readRef);const bp=n?`https://bibleproject.com/bible/niv/psalms/${n}/`:RESOURCE_URLS.psalmsGuide;const sefaria=n?`https://www.sefaria.org/Psalms.${n}?lang=bi`:RESOURCE_URLS.psalmsGuide;
  const html=resourceHeader('Psalm study resource',label,`${type} • mapped to ${x.title}`)+`<div class="resourceBody"><p class="resourceLead">${esc(psalmGuide(s))}</p><div class="resourceGrid"><section class="resourceSection gold"><h3>What happens inside this Psalm?</h3><p>${esc(psalmMovement(type,n))}</p></section><section class="resourceSection"><h3>Why it appears at this point in the timeline</h3><p>${esc(relation)}</p><p class="micro">This is a ${esc(type.toLowerCase())}. The timeline connection may be historical, traditional, literary or thematic rather than a certain date of composition.</p></section><section class="resourceSection green"><h3>What it reveals about God</h3><p>${esc(psalmGodFocus(type,n))}</p></section><section class="resourceSection rose"><h3>What it reveals about human beings</h3><p>${esc(psalmHumanFocus(type,n))}</p></section><section class="resourceSection purple full"><h3>How it converges with the larger biblical story</h3><p><strong>In this period:</strong> ${esc(x.eschatology.historical)}</p><p><strong>Later biblical development:</strong> ${esc(x.eschatology.canonical)}</p><p><strong>Christian canonical reading:</strong> ${esc(x.eschatology.christ)}</p></section><section class="resourceSection full"><h3>Read, watch and study further</h3><div class="resourceLinks">${resourceLink(usccb,`Read ${label} with notes`,'Full Psalm text and chapter notes from USCCB')}${resourceLink(bp,`Explore ${label} visually`,'BibleProject Bible reader and book resources')}${resourceLink(sefaria,`Read ${label} in Jewish textual context`,'Hebrew/English Tanakh text through Sefaria')}${resourceLink(RESOURCE_URLS.psalmsYale,'Study the Psalms in depth','Free Yale course on poetry, history, genres and theology')}${resourceLink(RESOURCE_URLS.psalmsGuide,'See how the whole Psalter is designed','BibleProject guide to the five-book collection')}${resourceLink(passageUrl(readRef),`Open ${label} in another translation`,'BibleGateway passage selector')}</div></section><section class="resourceSection full"><h3>Questions to carry into the text</h3><ul><li>What situation or emotion opens the Psalm?</li><li>What does the speaker ask God to do?</li><li>What changes—or refuses to change—by the end?</li><li>Which statement about God holds the prayer together?</li><li>Why does this Psalm belong beside this historical period?</li></ul></section></div></div>`;openResourceModal(html)}

@@ -1,18 +1,12 @@
-# Israel Through Time — Adaptive Mobile Journey Edition
+# Israel Through Time — Mobile Stability Fix
 
-This edition preserves the full eight-lane desktop convergence matrix and adds a distinct phone interface.
+This edition fixes the mobile panel/resource-closing bug.
 
-## Phone experience
-- Period-by-period vertical journey
-- Eight expandable lenses: history, empire, prophets, Psalms, passages, evidence, eschatology, theology
-- Large touch targets
-- Fixed bottom navigation: Journey, Timeline, Themes, Library
-- Previous/next time travel
-- Optional complete matrix mode
-- Clickable full resources throughout
+Changes:
+- mobile height-only viewport changes no longer rebuild the journey
+- expanded study layers are remembered
+- resource modals remain open through browser toolbar/viewport changes
+- backdrop taps do not dismiss resources on phones
+- modal scrolling, focus return and Escape-to-close are improved
 
-## Desktop experience
-The original eight aligned comparison lanes remain intact.
-
-## Run
-Open `index.html` locally, or publish the folder to GitHub Pages.
+Open `index.html` or deploy the entire folder.
