@@ -1,16 +1,13 @@
-# Israel Through Time — Mobile Stability Fix
+# Israel Through Time — Mobile Whole Map Fix v3
 
-This edition fixes the mobile panel/resource-closing bug.
+This version addresses the real-device failure more defensively:
 
-Changes:
-- mobile height-only viewport changes no longer rebuild the journey
-- expanded study layers are remembered
-- resource modals remain open through browser toolbar/viewport changes
-- backdrop taps do not dismiss resources on phones
-- modal scrolling, focus return and Escape-to-close are improved
+- the decorative hero overlay cannot intercept taps;
+- the control sits above decorative layers;
+- mobile detection follows the active layout rather than one width reading;
+- the JavaScript filenames are new, preventing old mobile-browser cache reuse;
+- the control is also a normal HTML anchor to a static list of all 34 periods, so it still opens a map even if an older or failed script is loaded.
 
-Open `index.html` or deploy the entire folder.
+When current JavaScript loads, **See the whole map** opens the mobile Timeline tab. The static list is a no-JavaScript / stale-cache fallback.
 
-
-## Whole-map button fix
-The hero's **See the whole map** button now opens the phone-native Timeline view on screens up to 767 px. On larger screens it scrolls to the complete eight-lane comparison matrix.
+Deploy the entire folder.
