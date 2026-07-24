@@ -7,6 +7,17 @@ function isMobileJourney(){return window.innerWidth<=MOBILE_BREAKPOINT&&!documen
 function currentPeriod(){return filtered[idx]||DATA[0]}
 function mobileEsc(s){return esc(s)}
 function mobileSetTab(tab){mobileTab=tab;renderMobile();requestAnimationFrame(()=>document.getElementById('mobileExperience')?.scrollIntoView({behavior:'smooth',block:'start'}))}
+function openWholeMap(){
+ if(window.innerWidth<=MOBILE_BREAKPOINT){
+   document.body.classList.remove('mobile-matrix-mode');
+   mobileTab='timeline';
+   renderMobile();
+   requestAnimationFrame(()=>document.getElementById('mobileExperience')?.scrollIntoView({behavior:'smooth',block:'start'}));
+   return;
+ }
+ const target=document.querySelector('.timelineCard')||document.getElementById('journeyMap');
+ target?.scrollIntoView({behavior:'smooth',block:'start'});
+}
 function setMobileMatrix(on){document.body.classList.toggle('mobile-matrix-mode',!!on);if(on){renderTimeline();requestAnimationFrame(()=>document.querySelector('.timelineCard')?.scrollIntoView({block:'start'}))}else{renderMobile();requestAnimationFrame(()=>document.getElementById('mobileExperience')?.scrollIntoView({block:'start'}))}}
 function mobileOpenPeriod(dataIndex){filtered=[...DATA];idx=Math.max(0,Math.min(dataIndex,DATA.length-1));mobileTab='journey';render();requestAnimationFrame(()=>document.getElementById('mobileExperience')?.scrollIntoView({behavior:'smooth',block:'start'}))}
 function mobileMove(delta){const x=currentPeriod(),pos=DATA.findIndex(v=>v.id===x.id),next=Math.max(0,Math.min(DATA.length-1,pos+delta));mobileOpenPeriod(next)}

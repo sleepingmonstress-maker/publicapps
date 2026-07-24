@@ -10,3 +10,7 @@ Changes:
 - modal scrolling, focus return and Escape-to-close are improved
 
 Open `index.html` or deploy the entire folder.
+
+
+## Whole-map button fix
+The hero's **See the whole map** button now opens the phone-native Timeline view on screens up to 767 px. On larger screens it scrolls to the complete eight-lane comparison matrix.
