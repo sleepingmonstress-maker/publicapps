@@ -1,0 +1,170 @@
+[
+  {
+    "id": "icc-palestine",
+    "title": "Situation in the State of Palestine",
+    "institution": "International Criminal Court",
+    "type": "Current legal proceedings",
+    "url": "https://www.icc-cpi.int/palestine",
+    "note": "Official ICC page for investigation and court decisions."
+  },
+  {
+    "id": "ushmm-dp",
+    "title": "Displaced Persons and Zionism",
+    "institution": "United States Holocaust Memorial Museum",
+    "type": "Postwar migration",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/displaced-persons",
+    "note": "Explains why many Jewish survivors viewed Palestine as their desired destination after the Holocaust."
+  },
+  {
+    "id": "ushmm-state",
+    "title": "Holocaust Survivors and the Establishment of Israel",
+    "institution": "United States Holocaust Memorial Museum",
+    "type": "Refuge and state formation",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/postwar-refugee-crisis-and-the-establishment-of-the-state-of-israel",
+    "note": "Connects the refugee crisis, UN partition, statehood and post-1948 immigration."
+  },
+  {
+    "id": "jewish-messianism",
+    "title": "Jewish Messianism",
+    "institution": "My Jewish Learning",
+    "type": "Jewish eschatological expectations",
+    "url": "https://www.myjewishlearning.com/article/jewish-messianism/",
+    "note": "Introduces ingathering, peace, Jerusalem, redemption and diverse Jewish understandings of the messianic age."
+  },
+  {
+    "id": "dss-iaa-discovery",
+    "title": "Israel Antiquities Authority — Discovery and Publication of the Dead Sea Scrolls",
+    "institution": "Israel Antiquities Authority",
+    "type": "Official manuscript history",
+    "url": "https://www.deadseascrolls.org.il/learn-about-the-scrolls/discovery-and-publication",
+    "note": "Official account of the 1947 discovery, eleven caves, fragments and publication history."
+  },
+  {
+    "id": "dss-iaa-languages",
+    "title": "Israel Antiquities Authority — Languages and Scripts",
+    "institution": "Israel Antiquities Authority",
+    "type": "Manuscript science",
+    "url": "https://www.deadseascrolls.org.il/learn-about-the-scrolls/languages-and-scripts",
+    "note": "Explains Hebrew, Aramaic and Greek manuscripts, palaeography and dating."
+  },
+  {
+    "id": "dss-great-isaiah",
+    "title": "Israel Museum — The Great Isaiah Scroll",
+    "institution": "Israel Museum",
+    "type": "Primary manuscript",
+    "url": "https://dss.collections.imj.org.il/isaiah",
+    "note": "Interactive presentation of the complete Great Isaiah Scroll, approximately 125 BCE."
+  },
+  {
+    "id": "dss-loc-today",
+    "title": "Library of Congress — The Dead Sea Scrolls Today",
+    "institution": "Library of Congress",
+    "type": "Historical significance",
+    "url": "https://www.loc.gov/exhibits/scrolls/today.html",
+    "note": "Explains the Scrolls’ importance for the Hebrew Bible, Second Temple Judaism and the background of Christianity."
+  },
+  {
+    "id": "dss-cell-dna",
+    "title": "Cell — Genetic Analysis of Dead Sea Scroll Parchment",
+    "institution": "Cell / peer-reviewed research",
+    "type": "Manuscript science",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(20)30552-3",
+    "note": "Uses parchment DNA to help group fragments and investigate manuscript origins."
+  },
+  {
+    "id": "pew-jewish-2020",
+    "title": "Pew Research Center — Jewish Americans in 2020",
+    "institution": "Pew Research Center",
+    "type": "Modern identity research",
+    "url": "https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/",
+    "note": "Large survey of Jewish identity, belonging, practice, family and intermarriage in the United States."
+  },
+  {
+    "id": "pew-jewish-marriage",
+    "title": "Pew Research Center — Marriage, Families and Children among U.S. Jews",
+    "institution": "Pew Research Center",
+    "type": "Demography",
+    "url": "https://www.pewresearch.org/religion/2021/05/11/marriage-families-and-children/",
+    "note": "Reports intermarriage and child-rearing patterns, useful for studying assimilation and continuity."
+  },
+  {
+    "id": "ushmm-farhud",
+    "title": "USHMM — The Farhud",
+    "institution": "United States Holocaust Memorial Museum",
+    "type": "Middle Eastern Jewish history",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-farhud",
+    "note": "Documents the 1941 anti-Jewish violence in Baghdad and the context of the later mass departure of Iraqi Jews."
+  },
+  {
+    "id": "un-palestine-history",
+    "title": "United Nations — History of the Question of Palestine",
+    "institution": "United Nations",
+    "type": "Modern diplomatic history",
+    "url": "https://www.un.org/unispal/history/",
+    "note": "Documents Mandate, partition, wars, refugees and diplomacy from a UN archival perspective."
+  },
+  {
+    "id": "ocha-live",
+    "title": "UN OCHA — Humanitarian Situation Updates",
+    "institution": "United Nations OCHA",
+    "type": "Live humanitarian record",
+    "url": "https://www.ochaopt.org/publications/humanitarian-situation-update",
+    "note": "Date-sensitive humanitarian reporting for Gaza and the West Bank; figures should be checked live."
+  },
+  {
+    "id": "icj-israel-case",
+    "title": "International Court of Justice — South Africa v. Israel",
+    "institution": "International Court of Justice",
+    "type": "Current legal record",
+    "url": "https://www.icj-cij.org/case/192",
+    "note": "Official pleadings, orders and procedural status. Allegations, provisional measures and final judgments must be distinguished."
+  },
+  {
+    "id": "nhm-fossil-record",
+    "title": "Natural History Museum — What Is a Fossil?",
+    "institution": "Natural History Museum, London",
+    "type": "Science method",
+    "url": "https://www.nhm.ac.uk/discover/what-is-a-fossil.html",
+    "note": "Explains why fossilisation is rare and why the fossil record is necessarily incomplete."
+  },
+  {
+    "id": "nhm-dinosaur-method",
+    "title": "Natural History Museum — What Can Scientists Learn about Dinosaurs?",
+    "institution": "Natural History Museum, London",
+    "type": "Science method",
+    "url": "https://www.nhm.ac.uk/discover/what-can-scientists-learn-about-dinosaurs-and-how.html",
+    "note": "Shows how partial remains, geology, anatomy and multiple traces converge in scientific reconstruction."
+  },
+  {
+    "id": "revelation-five-views",
+    "title": "Ligonier — Interpreting Revelation",
+    "institution": "Ligonier Ministries",
+    "type": "Eschatology overview",
+    "url": "https://learn.ligonier.org/articles/interpreting-revelation",
+    "note": "Summarises preterist, historicist, idealist, futurist and eclectic approaches."
+  },
+  {
+    "id": "israel-church-four-views",
+    "title": "The Gospel Coalition — Perspectives on Israel and the Church: Four Views",
+    "institution": "The Gospel Coalition / Themelios",
+    "type": "Theological viewpoints",
+    "url": "https://www.thegospelcoalition.org/themelios/review/perspectives-on-israel-and-the-church-4-views/",
+    "note": "Introduces major covenantal, dispensational and mediating approaches."
+  },
+  {
+    "id": "yale-revelation",
+    "title": "Yale Bible Study — Revelation",
+    "institution": "Yale Divinity School",
+    "type": "Academic biblical study",
+    "url": "https://yalebiblestudy.org/courses/revelation/",
+    "note": "Free academic course on Revelation’s historical setting, imagery and theological interpretation."
+  },
+  {
+    "id": "historical-method",
+    "title": "Cambridge — What Kinds of Problems Do Historians Solve?",
+    "institution": "Cambridge University Press",
+    "type": "Historical method",
+    "url": "https://www.cambridge.org/core/books/teaching-history-in-higher-education/what-kinds-of-problems-do-historians-solve/5A07931EF1DBE522784B6C304D3FD1FD",
+    "note": "Explains reasoning from incomplete, indirect and sometimes conflicting evidence."
+  }
+]

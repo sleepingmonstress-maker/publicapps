@@ -157,7 +157,80 @@
         "Nimrod"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "Primeval history",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Eden → Mesopotamia → the nations",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Primeval / Ancient Near Eastern world",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Adam and Eve, Cain and Abel, Noah, Nimrod",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 8 — human dignity under God; Psalm 29 — the LORD over the waters; Psalm 104 — creation praise",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Theological foundation; chronology and genre are interpreted differently among Jewish and Christian readers.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The city-empires of Mesopotamia rose and fell; the biblical point is that no human project of self-exaltation becomes ultimate.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Creator; Judge of evil; Preserver of life; Covenant-maker",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Distrust; Autonomy; Violence; Pride",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Ancient comparative texts",
+        "detail": "Mesopotamian creation and flood traditions such as Atrahasis and Gilgamesh illuminate the cultural world in which Genesis was heard. Similarity establishes a shared ancient conversation; it does not by itself settle dependence, genre or theology.",
+        "type": "Comparative evidence",
+        "sources": [
+          "ane-creation",
+          "ane-flood"
+        ]
+      },
+      {
+        "label": "Scientific boundary",
+        "detail": "Archaeology and geology can study early cities, floods and human populations, but they cannot excavate the theological claim that humanity bears God’s image.",
+        "type": "Science and theology",
+        "sources": [
+          "method-saa"
+        ]
+      }
+    ]
   },
   {
     "id": "abraham",
@@ -324,7 +397,69 @@
         "Ishmael"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 2100–1800 BCE (traditional range)",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Ur/Haran → Canaan → Egypt → Canaan",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Mesopotamian city-world and Canaanite environment",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Abraham, Sarah, Hagar, Ishmael, Isaac, Lot, Melchizedek",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Abraham is called a prophet in Genesis 20:7",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 47 — God over the nations; Psalm 105:1–15 — remembers Abrahamic covenant",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Biblical persons; proposed dates are approximate and debated.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The cities and dynasties around Abraham passed away; the covenant promise outlived the powers among which the family sojourned.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Caller; Promise-keeper; God of the nations; Patient covenant Lord",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Fear; Manipulation; Using people as means; Partial trust",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "jacob",
@@ -478,7 +613,63 @@
         "Joseph"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 1900–1700 BCE (traditional range)",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Canaan ↔ Paddan-aram → Egypt",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Canaan and Egypt",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Jacob/Israel, Leah, Rachel, Joseph, Judah, the twelve sons",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 105:16–23 — Joseph and famine; Psalm 135:4 — Jacob chosen",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Biblical narrative; precise synchronism with Egyptian chronology is uncertain.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Egypt later became both refuge and oppressor; the preserving place was never meant to become Israel’s permanent home.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Providential; Transforming; Faithful through generations",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Deceit; Favouritism; Jealousy; Family violence",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "exodus",
@@ -610,7 +801,8 @@
       "esch-inaugurated",
       "esch-dispensational",
       "esch-jewish",
-      "psalms-yale-intro"
+      "psalms-yale-intro",
+      "historical-method"
     ],
     "eschatology": {
       "motifs": [
@@ -656,7 +848,86 @@
         "Pharaoh"
       ]
     },
-    "imageKey": "merneptah"
+    "imageKey": "merneptah",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "Date debated: often 15th or 13th century BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Egypt → Red Sea/Reed Sea → Sinai",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Late Bronze / New Kingdom Egypt",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Moses, Aaron, Miriam, Pharaoh, Jethro, Joshua, Caleb",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Moses — foundational covenant prophet, Miriam — prophetess",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 78 — rebellion and mercy; Psalm 105:23–45 — plagues and exodus; Psalm 106 — confession of national sin; Psalm 114 — sea and Jordan flee",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "The event is central to biblical faith; date, scale and route remain vigorously debated.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Egypt remained a major civilisation after the Exodus setting, but its New Kingdom power declined; the Bible’s point is not Egypt’s immediate disappearance but Pharaoh’s inability to keep God’s people.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "One who hears cries; Liberator; Judge of oppressive power; Holy covenant Lord",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Imperial domination; Dehumanisation; Fear; Idolatry",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Earliest external “Israel”",
+        "detail": "The Merneptah Stele, usually dated to about 1208 BCE, is the earliest widely accepted extra-biblical reference to a people called Israel in Canaan.",
+        "type": "Direct attestation",
+        "sources": [
+          "merneptah-bas"
+        ]
+      },
+      {
+        "label": "Evidence gap",
+        "detail": "No uncontested Egyptian inscription narrates Moses, the ten plagues or the sea crossing. This is a real evidential gap, not automatic disproof.",
+        "type": "Evidence limit",
+        "sources": [
+          "exodus-bas",
+          "historical-method"
+        ]
+      }
+    ]
   },
   {
     "id": "wilderness",
@@ -820,7 +1091,69 @@
         "Joshua"
       ]
     },
-    "imageKey": "merneptah"
+    "imageKey": "merneptah",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "Wilderness generation",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Sinai wilderness → plains of Moab",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Sinai / Transjordan wilderness zone",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Moses, Aaron, Miriam, Joshua, Caleb, Korah, Balaam, Phinehas",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Moses, Balaam — foreign diviner compelled to speak blessing",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 90 — traditionally Moses’ prayer; Psalm 95 — warning from Meribah; Psalm 106:13–33 — wilderness rebellion",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Biblical narrative; geographical reconstruction disputed.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The wilderness generation died, but God preserved Joshua, Caleb and the next generation. The deepest enemy was unbelief within, not merely a foreign army.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Provider; Teacher; Holy presence; Patient disciplinarian",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Unbelief; Nostalgia for bondage; Grumbling; Presumption",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "conquest",
@@ -978,7 +1311,80 @@
         "Achan"
       ]
     },
-    "imageKey": "merneptah"
+    "imageKey": "merneptah",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "Late Bronze–early Iron Age transition",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Jordan Valley → Canaan",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Late Bronze city-states in Canaan",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Joshua, Caleb, Rahab, Achan, Eleazar",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 44 — remembers conquest yet laments defeat; Psalm 78:54–55 — God drives out nations; Psalm 135:10–12 — land gift",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Biblical account; archaeological models include conquest, infiltration, social transformation or combinations.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Canaanite city-state power gave way to Iron Age peoples and kingdoms; Israel itself later learned that possession of land did not remove accountability.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Giver of land; Judge; Covenant Lord",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Violence; Greed; Hidden disobedience; Presumption",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Settlement transition",
+        "detail": "Late Bronze–early Iron Age archaeology shows new highland settlements, but the evidence does not fit one simple conquest model at every site.",
+        "type": "Archaeological pattern",
+        "sources": [
+          "early-israel",
+          "hazor"
+        ]
+      },
+      {
+        "label": "Ancient DNA",
+        "detail": "Genomic work illuminates continuity and mixture among Bronze Age southern-Levantine populations; genetics cannot identify covenant membership or establish modern territorial rights.",
+        "type": "Scientific evidence",
+        "sources": [
+          "canaanite-dna"
+        ]
+      }
+    ]
   },
   {
     "id": "judges",
@@ -1135,7 +1541,78 @@
         "Barak"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 1200–1050 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Tribal territories of Israel",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Early Iron Age local powers; Philistines and neighbouring peoples",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Othniel, Ehud, Deborah, Barak, Gideon, Abimelech, Jephthah, Samson",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Deborah — prophetess and judge, Unnamed prophet in Judges 6",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 83 — hostile neighbouring peoples; Psalm 106:34–46 — mingling, idols, oppression and mercy",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Broad setting fits Iron Age decentralisation; individual episodes have limited external attestation.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Each local oppressor was checked, yet the recurring cycle continued because deliverance did not permanently transform Israel’s heart.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Compassionate deliverer; One who hears repeated cries",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Idolatry; Moral relativism; Sexual violence; Tribal vengeance",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Philistine material culture",
+        "detail": "Distinctive early Iron Age remains on the coastal plain and ancient DNA from Ashkelon illuminate migration and rapid mixture associated with early Philistine populations.",
+        "type": "Archaeology + genetics",
+        "sources": [
+          "philistines-bas",
+          "philistine-dna"
+        ]
+      }
+    ]
   },
   {
     "id": "samuel",
@@ -1292,7 +1769,69 @@
         "Saul"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 1100–1010 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Shiloh → Ramah → Gibeah",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Philistine pressure and early monarchy formation",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Hannah, Eli, Samuel, Saul, Jonathan, Agag",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Samuel, Gad, Ahijah begins ministry near this transition",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 2 — God’s anointed king; Psalm 113 — echoes Hannah’s reversal themes",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Biblical account; direct external evidence for Saul is limited.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Philistine dominance was reduced under the monarchy, but Philistines remained regional actors; Israel’s king could also become an oppressor.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "True king; Searcher of hearts; Judge of corrupt worship",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Religious exploitation; Fear-driven kingship; Partial obedience; Jealousy",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "david",
@@ -1472,7 +2011,77 @@
         "Abigail"
       ]
     },
-    "imageKey": "tel_dan"
+    "imageKey": "tel_dan",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 1010–970 BCE (traditional)",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Hebron → Jerusalem",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "United Monarchy / regional Iron Age kingdoms",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "David, Jonathan, Michal, Abigail, Bathsheba, Uriah, Nathan, Joab",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Samuel, Nathan, Gad",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 3 — flight from Absalom; Psalm 18 — deliverance from enemies; Psalm 23 — shepherd trust; Psalm 32 — forgiven sin; Psalm 51 — repentance after Bathsheba; Psalm 59 — Saul’s men watch David’s house; Psalm 60 — warfare; Psalm 63 — wilderness thirst; Psalm 110 — royal priestly psalm",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Davidic dynasty has strong historical support; the size and administration of the united kingdom are debated.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "David’s enemies were subdued for a time, but his house was wounded from within by his own misuse of power.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Covenant-maker; Forgiver; Truth-teller through prophets",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Abuse of power; Adultery; Murder; Parental passivity",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "House of David",
+        "detail": "The ninth-century BCE Tel Dan Stele is widely read as referring to the “House of David”. It supports the existence of a Davidic dynasty, not every detail or the exact scale of David’s kingdom.",
+        "type": "Direct dynastic attestation",
+        "sources": [
+          "tel-dan"
+        ]
+      }
+    ]
   },
   {
     "id": "solomon",
@@ -1635,7 +2244,69 @@
         "Queen of Sheba"
       ]
     },
-    "imageKey": "tel_dan"
+    "imageKey": "tel_dan",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 970–931 BCE (traditional)",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Jerusalem and a wider trading kingdom",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "United Monarchy with Phoenician connections",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Solomon, Bathsheba, Hiram of Tyre, Queen of Sheba, Jeroboam, Rehoboam",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Nathan, Ahijah the Shilonite",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 72 — royal justice, attributed to/of Solomon; Psalm 127 — attributed to/of Solomon; Psalms 120–134 — later pilgrim songs tied to temple journeys",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Temple and monarchy are core biblical claims; material reconstruction is contested.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The prosperous united kingdom fractured after Solomon; splendour could not compensate for idolatry and coercion.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Giver of wisdom; Dwelling presence; Covenant examiner",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Idolatry; Accumulation; Coercion; Compromise",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "division",
@@ -1789,7 +2460,69 @@
         "Shemaiah"
       ]
     },
-    "imageKey": "tel_dan"
+    "imageKey": "tel_dan",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 931 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Samaria/Shechem (north) and Jerusalem (south)",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Israel and Judah as separate states",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Rehoboam, Jeroboam I, Ahijah, Shemaiah",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Ahijah, Shemaiah, Man of God from Judah",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 80 — plea for northern tribes; Psalm 78:67–72 — Ephraim rejected, Judah and David chosen",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Historically well situated; details come mainly from Kings and Chronicles.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Neither northern Israel nor Judah could secure itself permanently through rival worship, alliances or dynastic strategy.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Sovereign amid political fracture; Preserver of promise",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Harsh leadership; Political religion; Fear; Counterfeit worship",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "omrides",
@@ -1954,7 +2687,78 @@
         "Elijah"
       ]
     },
-    "imageKey": "black_obelisk"
+    "imageKey": "black_obelisk",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "9th century BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Samaria, Jezreel, Carmel",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Northern Kingdom under Omride dynasty; Phoenicia; Assyria rising",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Omri, Ahab, Jezebel, Elijah, Obadiah, Naboth, Jehu",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Elijah, Micaiah son of Imlah",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 42–43 — northern geography and spiritual thirst; Psalm 82 — judgment of unjust rulers",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Strong extra-biblical synchronisms for Omri, Ahab and Jehu.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Ahab’s dynasty fell violently under Jehu; Jehu then submitted tribute to Assyria. One violent regime replaced another without full covenant renewal.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God who confronts kings; Defender of the dispossessed; Lord over rain and fertility",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "State-sponsored idolatry; Judicial murder; Land theft; Persecution",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Omri, Ahab and Jehu outside the Bible",
+        "detail": "The Mesha Stele, Kurkh tradition and Black Obelisk place the northern kingdom and its rulers inside the documented politics of Moab and Assyria.",
+        "type": "Multiple external intersections",
+        "sources": [
+          "mesha-louvre",
+          "black-obelisk"
+        ]
+      }
+    ]
   },
   {
     "id": "elisha",
@@ -2106,7 +2910,69 @@
         "Hazael"
       ]
     },
-    "imageKey": "black_obelisk"
+    "imageKey": "black_obelisk",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "9th century BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Northern Israel and Aram",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Northern Kingdom, Aram-Damascus and Assyria",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Elisha, Naaman, Gehazi, Hazael, Jehu, Jehoahaz, Joash",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Elisha, Sons of the prophets",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 46 — God amid national upheaval; Psalm 107 — deliverance motifs resembling Elisha’s mercies",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Strong imperial and regional context.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Aram’s pressure eventually yielded to larger Assyrian expansion; selective reform did not protect northern Israel permanently.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God of ordinary need; God of foreigners; Lord over life and death",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Greed; Selective zeal; Dynastic violence",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "amos-hosea",
@@ -2273,7 +3139,69 @@
         "Gomer"
       ]
     },
-    "imageKey": "black_obelisk"
+    "imageKey": "black_obelisk",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 790–750 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Samaria, Bethel and the northern kingdom",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Northern Israel before Assyrian collapse",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Jeroboam II, Amos, Hosea, Gomer, Amaziah of Bethel, Jonah",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Amos, Hosea, Jonah",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 50 — worship without obedience exposed; Psalm 73 — prosperity of the wicked; Psalm 85 — restoration and righteousness",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Prophetic books securely fit the 8th-century northern setting, though individual passage dating can be debated.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The affluent northern kingdom fell to Assyria in 722/721 BCE. Wealth and worship had hidden structural decay rather than prevented it.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God of justice; Wounded covenant lover; Patient warner",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Economic exploitation; Empty worship; Adultery of the heart; Self-security",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "assyrian-fall",
@@ -2445,7 +3373,69 @@
         "Sargon II"
       ]
     },
-    "imageKey": "black_obelisk"
+    "imageKey": "black_obelisk",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "734–722/721 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Galilee, Samaria → Assyrian provinces and exile",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Neo-Assyrian Empire",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Hoshea, Tiglath-pileser III, Shalmaneser V, Sargon II, Isaiah, Micah",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Hosea, Isaiah, Micah",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 80 — ‘restore us’ for Joseph/Ephraim; Psalm 83 — surrounding hostility; Psalm 78 — northern unfaithfulness",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Firmly anchored historically; exact attribution of Samaria’s final capture is discussed.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Assyria destroyed the northern kingdom, but Nineveh fell in 612 BCE and the remaining Assyrian state was defeated by 605 BCE.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Sovereign over empires; Patient judge; Keeper of a remnant",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Persistent idolatry; Rejecting prophets; Cruel imperial pride",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "hezekiah",
@@ -2575,7 +3565,8 @@
       "timeline-prophets",
       "history-usccb",
       "psalms-yale-intro",
-      "psalms-yale-royal"
+      "psalms-yale-royal",
+      "assyrian-met"
     ],
     "eschatology": {
       "motifs": [
@@ -2620,7 +3611,87 @@
         "Rabshakeh"
       ]
     },
-    "imageKey": "lachish"
+    "imageKey": "lachish",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "c. 715–686 BCE; invasion 701 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Judah and Jerusalem",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Judah under Assyrian pressure",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Hezekiah, Isaiah, Sennacherib, Rabshakeh, Merodach-baladan",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Isaiah, Micah",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 46 — often associated with Jerusalem’s deliverance; Psalm 48 — Zion preserved; Psalm 76 — God breaks weapons; Psalm 87 — Zion and nations",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "One of the best-attested biblical-era crises; explanations for Assyria’s withdrawal vary.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Assyria devastated Judah but did not capture Jerusalem in 701 BCE; the empire itself fell within a century.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Defender; Holy one beyond imperial boasting; Hearer of prayer",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Pride; Misplaced alliances; Idolising sacred objects",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Assyrian campaign of 701 BCE",
+        "detail": "Sennacherib’s inscriptions boast of devastating Judah and confining Hezekiah, while surviving royal texts do not claim Jerusalem’s capture.",
+        "type": "Direct imperial evidence",
+        "sources": [
+          "sennacherib-prism",
+          "assyrian-met"
+        ]
+      },
+      {
+        "label": "Lachish and water engineering",
+        "detail": "The Lachish relief depicts siege and deportation; scientific dating and engineering studies connect Jerusalem’s tunnel system with the late eighth-century crisis.",
+        "type": "Material + scientific evidence",
+        "sources": [
+          "lachish-relief",
+          "siloam-dating"
+        ]
+      }
+    ]
   },
   {
     "id": "manasseh-josiah",
@@ -2785,7 +3856,69 @@
         "Huldah"
       ]
     },
-    "imageKey": "lachish"
+    "imageKey": "lachish",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "7th century BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Jerusalem and Judah",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Late Assyrian decline; Egyptian and Babylonian transition",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Manasseh, Amon, Josiah, Huldah, Hilkiah, Shaphan, Pharaoh Neco II",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Huldah, Zephaniah, Jeremiah begins under Josiah, Nahum likely near this period",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 1 — delight in Torah; Psalm 119 — Torah devotion; Psalm 27 — seeking God’s presence",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Strong geopolitical setting; Chronicles adds repentance details absent from Kings.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Assyria collapsed, Egypt briefly intervened, and Babylon became the next dominant power. Imperial succession did not remove Judah’s moral crisis.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God who receives repentance; God whose holiness remembers innocent blood",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Child sacrifice; Occultism; Institutionalised idolatry",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "babylon",
@@ -2986,7 +4119,86 @@
         "Jehoiachin"
       ]
     },
-    "imageKey": "lachish"
+    "imageKey": "lachish",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "609–586 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Judah, Jerusalem and Babylon",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Neo-Babylonian Empire",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Jeremiah, Baruch, Jehoiakim, Jehoiachin, Zedekiah, Nebuchadnezzar II, Gedaliah, Ebed-melech",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Jeremiah, Habakkuk, Zephaniah, Ezekiel among exiles, Daniel in court tradition, Obadiah around Jerusalem’s fall (date debated)",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 74 — sanctuary destroyed; Psalm 79 — Jerusalem devastated; Psalm 89 — Davidic crown cast down; Psalm 137 — grief beside Babylon’s rivers",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Firmly dated historical framework.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Babylon destroyed Jerusalem in 586 BCE, but Cyrus conquered Babylon in 539 BCE and authorised restoration policies.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Judge who weeps; Lord beyond the temple; Promiser of new covenant",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Injustice; False security; Broken covenant; Refusal to listen",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "597 and 586 BCE",
+        "detail": "Babylonian records anchor the 597 capture and deportation; archaeological destruction evidence illuminates Jerusalem’s later fall in 586 BCE.",
+        "type": "Firm synchronism",
+        "sources": [
+          "babylon-chronicle",
+          "babylon-met"
+        ]
+      },
+      {
+        "label": "Jehoiachin in Babylon",
+        "detail": "Administrative ration texts mention the exiled Judean king Jehoiachin, an unusually specific intersection between biblical and Babylonian records.",
+        "type": "Administrative evidence",
+        "sources": [
+          "babylon-chronicle"
+        ]
+      }
+    ]
   },
   {
     "id": "exile",
@@ -3163,7 +4375,77 @@
         "Mishael/Meshach"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "597/586–539 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Babylonia and scattered communities",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Babylonian Empire",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Ezekiel, Daniel, Hananiah/Shadrach, Mishael/Meshach, Azariah/Abednego, Jehoiachin",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Ezekiel, Daniel (classified among Writings in Jewish canon)",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 102 — afflicted prayer and Zion hope; Psalm 126 — restoration dream; Psalm 137 — exile trauma",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Exilic communities and Babylonian setting are historically secure; Daniel’s composition date is debated.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Babylonian rule ended, but many Judeans remained and built enduring communities under Persian rule; return and diaspora existed together.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Mobile presence; Restorer; Giver of new heart and Spirit",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "False blame; Assimilation; Despair; Leader self-interest",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Judean life in Babylonia",
+        "detail": "The Al-Yahudu tablets show Judean families farming, paying taxes, transacting business and preserving identifiable names in Babylonia.",
+        "type": "Social history",
+        "sources": [
+          "al-yahudu"
+        ]
+      }
+    ]
   },
   {
     "id": "persia",
@@ -3346,7 +4628,78 @@
         "Joshua/Jeshua the high priest"
       ]
     },
-    "imageKey": "cyrus"
+    "imageKey": "cyrus",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "539–515 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Babylon → Yehud/Jerusalem",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Achaemenid Persian Empire",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Cyrus II, Sheshbazzar, Zerubbabel, Joshua/Jeshua the high priest, Haggai, Zechariah, Darius I",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Isaiah 40–55 speaks into return hope (dating debated), Haggai, Zechariah",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 126 — return joy; Psalm 147 — Jerusalem rebuilt; Psalms 120–134 — pilgrimage collection",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Strong imperial context and plausible policy parallel.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Persia enabled return, then was conquered by Alexander. Even the empire used for restoration was not the kingdom of God.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Lord of history; User of foreign rulers; God of small beginnings",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Discouragement; Self-protection; Neglect",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Cyrus and restoration policy",
+        "detail": "The Cyrus Cylinder documents conquest and restoration of sanctuaries within Persian imperial policy. It gives context to Ezra but does not quote a Judah-specific decree.",
+        "type": "Imperial context",
+        "sources": [
+          "cyrus-cylinder",
+          "persia-met"
+        ]
+      }
+    ]
   },
   {
     "id": "esther-ezra",
@@ -3509,7 +4862,69 @@
         "Ahasuerus/Xerxes I (traditional identification)"
       ]
     },
-    "imageKey": "cyrus"
+    "imageKey": "cyrus",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "5th century BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Susa and Jerusalem",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Persian Empire",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Esther, Mordecai, Haman, Ahasuerus/Xerxes I (traditional identification), Ezra, Nehemiah, Artaxerxes I",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Malachi, likely Persian period, No prophet is named in Esther",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 124 — escape from destruction; Psalm 129 — afflicted yet surviving; Psalm 145 — kingdom and providence",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Persian setting is credible; historicity of individual Esther details is debated.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Persian imperial protection was contingent and temporary; Jewish life continued under later Greek and Roman powers.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Hidden providence; Protector; Holy covenant Lord",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Genocidal pride; Exploitation; Religious neglect",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "greek",
@@ -3623,7 +5038,10 @@
       "esch-revelation-views",
       "esch-dispensational",
       "esch-resurrection",
-      "esch-jewish"
+      "esch-jewish",
+      "dss-iaa-discovery",
+      "dss-iaa-languages",
+      "dss-great-isaiah"
     ],
     "eschatology": {
       "motifs": [
@@ -3668,7 +5086,79 @@
         "Antiochus IV Epiphanes"
       ]
     },
-    "imageKey": "isaiah_scroll"
+    "imageKey": "isaiah_scroll",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "332–167 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Judea under Ptolemaic then Seleucid rule",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Hellenistic kingdoms: Ptolemies and Seleucids",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Alexander the Great, Ptolemy rulers, Seleucus rulers, Antiochus IV Epiphanes, Onias III, Jason, Menelaus",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "No canonical prophetic office universally recognised in this period; Daniel’s visions become crucial interpretive scripture",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 2 — nations rage against God’s rule; Psalm 44 — faithful suffering; Psalm 74 — sanctuary violated",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Historical framework secure; dating and predictive character of Daniel are major scholarly debates.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Seleucid coercion triggered resistance; Seleucid power fragmented and Rome absorbed its remnants in 64 BCE.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Sovereign over beastly empires; Vindicator of the faithful",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Assimilation for status; Sacrilege; Imperial coercion",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Dead Sea Scrolls window",
+        "detail": "The Qumran manuscripts date broadly from the third century BCE to the first century CE, placing them inside this period’s Jewish textual and theological world.",
+        "type": "Manuscript evidence",
+        "sources": [
+          "dss-iaa-discovery",
+          "dss-iaa-languages",
+          "dss-great-isaiah"
+        ]
+      }
+    ]
   },
   {
     "id": "maccabees",
@@ -3771,7 +5261,10 @@
       "esch-resurrection",
       "esch-millennium-sbl",
       "esch-jewish",
-      "history-usccb"
+      "history-usccb",
+      "dss-iaa-discovery",
+      "dss-iaa-languages",
+      "dss-great-isaiah"
     ],
     "eschatology": {
       "motifs": [
@@ -3814,7 +5307,73 @@
         "Simon Thassi"
       ]
     },
-    "imageKey": "isaiah_scroll"
+    "imageKey": "isaiah_scroll",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "167–63 BCE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Judea and expanding Hasmonean territory",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Hasmonean Judea amid weakening Seleucid power",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Mattathias, Judas Maccabeus, Jonathan Apphus, Simon Thassi, John Hyrcanus, Alexander Jannaeus, Salome Alexandra",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 30 became associated in Jewish tradition with dedication; Psalms 113–118 (Hallel) used at festivals including Hanukkah",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Well documented historically.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The Hasmoneans won independence, then their own dynastic rivalry invited Roman intervention. Liberators could become compromised rulers.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Deliverer and purifier of worship",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Coercion; Civil conflict; Religious ambition",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Dead Sea Scrolls window",
+        "detail": "The Qumran manuscripts date broadly from the third century BCE to the first century CE, placing them inside this period’s Jewish textual and theological world.",
+        "type": "Manuscript evidence",
+        "sources": [
+          "dss-iaa-discovery",
+          "dss-iaa-languages",
+          "dss-great-isaiah"
+        ]
+      }
+    ]
   },
   {
     "id": "rome-jesus",
@@ -3943,6 +5502,18 @@
         "sources": [
           "method-saa"
         ]
+      },
+      {
+        "title": "Dead Sea Scrolls: biblical text and Second Temple Judaism",
+        "detail": "Manuscripts from the third century BCE to the first century CE include the oldest known biblical copies, texts close to the later Masoretic tradition, textual variants, and non-biblical writings that reveal the diverse Jewish world into which Jesus was born.",
+        "confidence": "Direct manuscript evidence",
+        "sources": [
+          "dss-iaa-home",
+          "dss-iaa-featured",
+          "dss-loc-intro",
+          "dss-loc-significance",
+          "dss-dna"
+        ]
       }
     ],
     "oppressorOutcome": "Rome executed Jesus and later destroyed Jerusalem. Christian confession nevertheless locates ultimate victory in resurrection, not armed conquest.",
@@ -3968,7 +5539,16 @@
       "esch-catholic",
       "esch-jewish",
       "esch-future-israel",
-      "esch-jewish-messianism"
+      "esch-jewish-messianism",
+      "dss-iaa-home",
+      "dss-iaa-featured",
+      "dss-loc-intro",
+      "dss-loc-significance",
+      "dss-dna",
+      "method-bibleodyssey",
+      "dss-iaa-discovery",
+      "dss-iaa-languages",
+      "dss-great-isaiah"
     ],
     "eschatology": {
       "motifs": [
@@ -4020,7 +5600,95 @@
         "Peter"
       ]
     },
-    "imageKey": "pilate"
+    "imageKey": "pilate",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "63 BCE–30/33 CE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Judea, Galilee and Jerusalem under Roman power",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Roman Empire and Herodian client rule",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Jesus, Mary, John the Baptist, Peter, James, John, Mary Magdalene, Herod the Great",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "John the Baptist, Jesus is regarded by Christians as prophet, Messiah and Son; Jewish tradition does not accept the Messianic claim",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 2 — applied to Jesus’ kingship; Psalm 22 — used in Passion narratives; Psalm 69 — zeal and suffering; Psalm 110 — frequently used in New Testament Christology; Psalm 118 — entry into Jerusalem and rejected stone",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Jesus’ life and crucifixion are historical bedrock; resurrection is a theological-historical claim assessed differently according to worldview.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Rome executed Jesus and later destroyed Jerusalem. Christian confession nevertheless locates ultimate victory in resurrection, not armed conquest.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "In Christian confession: incarnate, merciful, crucified and risen king",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Imperial violence; Hypocrisy; Exclusion; Self-righteousness",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Pontius Pilate outside the New Testament",
+        "detail": "The Pilate inscription independently attests the Roman prefect named in the Gospel passion narratives.",
+        "type": "Direct office-holder attestation",
+        "sources": [
+          "pilate-street"
+        ]
+      },
+      {
+        "label": "Historical consensus and theological claim",
+        "detail": "Jesus’ crucifixion under Pilate is among the strongest historical claims about his life. Resurrection is a further historical-theological claim assessed through testimony and worldview, not archaeology alone.",
+        "type": "Claim distinction",
+        "sources": [
+          "method-bibleodyssey"
+        ]
+      },
+      {
+        "label": "Dead Sea Scrolls window",
+        "detail": "The Qumran manuscripts date broadly from the third century BCE to the first century CE, placing them inside this period’s Jewish textual and theological world.",
+        "type": "Manuscript evidence",
+        "sources": [
+          "dss-iaa-discovery",
+          "dss-iaa-languages",
+          "dss-great-isaiah"
+        ]
+      }
+    ]
   },
   {
     "id": "church-70",
@@ -4112,10 +5780,12 @@
       },
       {
         "title": "Manuscript science",
-        "detail": "Dead Sea Scroll parchment DNA helps reunite fragments and distinguish manuscript origins, sharpening knowledge of the Jewish textual world around this era.",
+        "detail": "Dead Sea Scroll parchment DNA, palaeography, radiocarbon dating and spectral imaging help group fragments, identify manuscript origins and reconstruct the varied Jewish textual world immediately before the destruction of 70 CE.",
         "confidence": "Scientific manuscript evidence",
         "sources": [
-          "dss-dna"
+          "dss-dna",
+          "dss-iaa-home",
+          "dss-loc-significance"
         ]
       }
     ],
@@ -4142,7 +5812,13 @@
       "esch-jewish",
       "psalms-yale-intro",
       "esch-future-israel",
-      "esch-jewish-messianism"
+      "esch-jewish-messianism",
+      "dss-iaa-home",
+      "dss-loc-significance",
+      "dss-iaa-discovery",
+      "dss-loc-today",
+      "dss-iaa-languages",
+      "dss-great-isaiah"
     ],
     "eschatology": {
       "motifs": [
@@ -4190,7 +5866,96 @@
         "Josephus"
       ]
     },
-    "imageKey": "arch_titus"
+    "imageKey": "arch_titus",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "30s–70 CE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Jerusalem, Judea and the Roman world",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Roman Empire",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Peter, James, Paul, Josephus, Vespasian, Titus, Rabban Yohanan ben Zakkai",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Agabus and other early Christian prophets in Acts",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 118 — early Christian proclamation; Psalm 44 — communal suffering; Psalm 79 — reused in later Jewish lament",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Destruction in 70 CE is exceptionally well documented.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Rome destroyed the temple in 70 CE. Jewish and Christian communities survived and reorganised; Rome’s western empire later fell.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Judge who warns; Presence beyond temple; Gatherer of a new-covenant people",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Factional zeal; Pride; Violence; Refusal of warning",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Jerusalem destroyed in 70 CE",
+        "detail": "Josephus, Roman coins, destruction evidence and the Arch of Titus converge on the Roman capture and temple destruction.",
+        "type": "Dense external record",
+        "sources": [
+          "arch-titus"
+        ]
+      },
+      {
+        "label": "Manuscript horizon",
+        "detail": "The Dead Sea Scrolls preserve Jewish biblical and non-biblical writings from the centuries immediately before and around this upheaval.",
+        "type": "Manuscript evidence",
+        "sources": [
+          "dss-iaa-discovery",
+          "dss-loc-today"
+        ]
+      },
+      {
+        "label": "Dead Sea Scrolls window",
+        "detail": "The Qumran manuscripts date broadly from the third century BCE to the first century CE, placing them inside this period’s Jewish textual and theological world.",
+        "type": "Manuscript evidence",
+        "sources": [
+          "dss-iaa-discovery",
+          "dss-iaa-languages",
+          "dss-great-isaiah"
+        ]
+      }
+    ]
   },
   {
     "id": "bar-kokhba",
@@ -4328,7 +6093,71 @@
         "Julius Severus"
       ]
     },
-    "imageKey": "bar_kokhba"
+    "imageKey": "bar_kokhba",
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "70–135 CE",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Judea under Rome",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Roman Empire under Hadrian",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Simon bar Kokhba, Rabbi Akiva, Emperor Hadrian, Julius Severus",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 74 and Psalm 79 become natural templates for later lament; Psalm 137 sustains diaspora memory",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Historically secure.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Rome crushed the revolt in 135 CE. Jewish life persisted in Galilee, Babylonia and the diaspora despite loss of sovereignty.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God not captured by nationalist expectation",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Desperate messianism; Militarised hope; Imperial brutality",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Letters, coins and caves",
+        "detail": "Bar Kokhba letters, revolt coins and Judean Desert finds provide unusually direct evidence for the 132–135 CE revolt.",
+        "type": "Direct material record",
+        "sources": [
+          "bar-kokhba"
+        ]
+      }
+    ]
   },
   {
     "id": "diaspora",
@@ -4444,7 +6273,10 @@
       "esch-jewish",
       "esch-jewish-jerusalem",
       "esch-future-israel",
-      "esch-jewish-messianism"
+      "esch-jewish-messianism",
+      "pew-jewish-2020",
+      "pew-jewish-marriage",
+      "historical-method"
     ],
     "eschatology": {
       "motifs": [
@@ -4493,7 +6325,80 @@
         "Judah Halevi"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "2nd–19th centuries",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Middle East, North Africa, Europe and beyond",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Multiple empires and nation-states",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Rabbinic sages, Saadia Gaon, Maimonides, Judah Halevi, Theodor Herzl, Ahad Ha’am",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 137 — diaspora memory; Psalm 126 — dream of return; Psalm 122 — prayer for Jerusalem; Psalm 130 — waiting and hope",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Historically documented; theological meaning is interpretive.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Many persecuting regimes disappeared, while Jewish communities repeatedly reconstituted life. Survival itself became a central historical fact.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "Preserver; God of memory and hope; Present among scattered communities",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Persecution; Contempt; Forced conversion",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Continuity and assimilation coexist",
+        "detail": "Jewish identity endured through text, worship, law, family and communal institutions, but assimilation and intermarriage were also real. Modern survey data show both persistence and porous boundaries.",
+        "type": "Demographic nuance",
+        "sources": [
+          "pew-jewish-2020",
+          "pew-jewish-marriage"
+        ]
+      },
+      {
+        "label": "State and people are not the same",
+        "detail": "Ancient sovereignty ended; Jewish peoplehood continued in diverse communities. Modern Israel restored sovereignty to an enduring people, not to an uninterrupted state bureaucracy.",
+        "type": "Historical distinction",
+        "sources": [
+          "historical-method"
+        ]
+      }
+    ]
   },
   {
     "id": "mandate",
@@ -4615,7 +6520,10 @@
       "esch-jewish",
       "un-history",
       "esch-future-israel",
-      "esch-jewish-messianism"
+      "esch-jewish-messianism",
+      "un-palestine-history",
+      "ushmm-dp",
+      "ushmm-state"
     ],
     "eschatology": {
       "motifs": [
@@ -4663,7 +6571,80 @@
         "Haj Amin al-Husseini"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "1880s–1947",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Ottoman Palestine → British Mandate Palestine",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Late Ottoman Empire and British Mandate",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Theodor Herzl, Chaim Weizmann, David Ben-Gurion, Haj Amin al-Husseini, Arthur Balfour",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 126 — frequently associated with return; Psalm 137 — memory of Zion; Psalm 121 — pilgrimage and protection",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Modern events are well documented; moral and causal interpretations differ.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The Ottoman Empire ended; Britain relinquished the Mandate. Their departure did not resolve the two peoples’ incompatible national projects.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God of justice and every neighbour",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Antisemitism; Colonial manipulation; Communal violence; Dehumanisation",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "From memory to political movement",
+        "detail": "Zionism converted longstanding attachment to Zion into institutions, migration, Hebrew education, diplomacy and state-building under Ottoman and British rule.",
+        "type": "Modern political history",
+        "sources": [
+          "un-palestine-history"
+        ]
+      },
+      {
+        "label": "Postwar refugee urgency",
+        "detail": "Holocaust survivors and displaced persons faced destroyed communities and restricted migration, making Palestine/Israel a central destination for many.",
+        "type": "Refugee history",
+        "sources": [
+          "ushmm-dp",
+          "ushmm-state"
+        ]
+      }
+    ]
   },
   {
     "id": "1948",
@@ -4777,7 +6758,9 @@
       "un-181",
       "un-history",
       "esch-future-israel",
-      "esch-jewish-messianism"
+      "esch-jewish-messianism",
+      "un-palestine-history",
+      "israel-church-four-views"
     ],
     "eschatology": {
       "motifs": [
@@ -4826,7 +6809,79 @@
         "Palestinian civilians and refugees"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "1948–1949",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Former British Mandate Palestine",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Post-Mandate regional war and emerging state system",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "David Ben-Gurion, Chaim Weizmann, King Abdullah I, Palestinian civilians and refugees, Jewish refugees from Europe and Middle Eastern/North African countries",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 126 — return imagery; Psalm 46 — national danger; Psalm 85 — longing for righteousness and peace",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Core events secure; narratives of responsibility are contested.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "No simple “vanquisher outcome” exists: statehood, refugeehood and regional conflict became enduring realities rather than a closed biblical-style cycle.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God who sees both survivor and refugee",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Mass violence; Expulsion; Fear; Refusal of shared humanity",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Two national memories",
+        "detail": "For Jews, 1948 marks independence and survival; for Palestinians, it marks mass displacement and the Nakba. Both are indispensable facts of the same war.",
+        "type": "Dual historical memory",
+        "sources": [
+          "un-palestine-history"
+        ]
+      },
+      {
+        "label": "No automatic moral inference",
+        "detail": "Statehood or victory may be interpreted providentially without proving that every military or political act was righteous.",
+        "type": "Theological caution",
+        "sources": [
+          "israel-church-four-views"
+        ]
+      }
+    ]
   },
   {
     "id": "1967-73",
@@ -4937,7 +6992,8 @@
       "esch-jewish",
       "un-242",
       "esch-future-israel",
-      "esch-jewish-messianism"
+      "esch-jewish-messianism",
+      "un-palestine-history"
     ],
     "eschatology": {
       "motifs": [
@@ -4985,7 +7041,71 @@
         "Golda Meir"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "1967–1979",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Israel, West Bank, East Jerusalem, Gaza, Sinai and Golan",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "State of Israel and Arab states within Cold War context",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Levi Eshkol, Gamal Abdel Nasser, King Hussein, Golda Meir, Anwar Sadat, Menachem Begin",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 122 — prayer for Jerusalem’s peace; Psalm 20 — danger of trusting military power; Psalm 85 — justice and peace together",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Events secure; legal and political interpretations remain contested.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Egypt eventually made peace and regained Sinai; occupation of Palestinian territories and conflict over Jerusalem, settlements and sovereignty remained unresolved.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God who requires justice alongside security",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "War-making; Occupation abuses; Revenge; National pride",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Territorial turning point",
+        "detail": "The 1967 war brought the West Bank, East Jerusalem, Gaza, Sinai and Golan under Israeli control, making occupation, security, settlements and Palestinian self-determination central to subsequent history.",
+        "type": "Modern geopolitical fact",
+        "sources": [
+          "un-palestine-history"
+        ]
+      }
+    ]
   },
   {
     "id": "peace-intifadas",
@@ -5131,7 +7251,63 @@
         "Benjamin Netanyahu"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "1980–2005",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Israel, Lebanon, West Bank and Gaza",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Israel, Palestine, Lebanon and regional actors",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Yasser Arafat, Yitzhak Rabin, Shimon Peres, Benjamin Netanyahu, King Hussein, Ariel Sharon",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 34 — seek peace and pursue it; Psalm 120 — longing for peace among those for war; Psalm 85 — righteousness and peace meet",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Events secure; evaluation contested.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Neither military suppression nor diplomacy produced final resolution. Oslo created institutions but not a sovereign, agreed peace.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God of truth, justice and reconciliation",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Terrorism; Assassination; Collective punishment; Incitement",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "2006-2022",
@@ -5279,7 +7455,63 @@
         "Israeli governments"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "2006–2022",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Israel, Gaza, West Bank and wider Middle East",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Israel/Palestine within regional and international diplomacy",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Israeli and Palestinian civilians, Hamas, Palestinian Authority, Israeli governments, Regional mediators",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 10 — violence and the vulnerable; Psalm 13 — prolonged lament; Psalm 82 — rulers judged for injustice",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Broad outline secure; legal judgments require event-specific evidence.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "Repeated rounds changed tactical realities but did not remove the underlying conflict, trauma, blockade, occupation or competing claims.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God attentive to the besieged, threatened and displaced",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Indiscriminate attack; Excessive force; Blockade harm; Settlement violence",
+        "type": "Theology",
+        "sources": []
+      }
+    ]
   },
   {
     "id": "oct7-present",
@@ -5412,7 +7644,9 @@
       "esch-jewish",
       "ocha-2026",
       "esch-future-israel",
-      "esch-jewish-messianism"
+      "esch-jewish-messianism",
+      "ocha-live",
+      "icj-israel-case"
     ],
     "eschatology": {
       "motifs": [
@@ -5462,7 +7696,82 @@
         "Israeli government and military"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "7 October 2023–present (app edition: July 2026)",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "Southern Israel, Gaza, West Bank and regional fronts",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Israel, Gaza, West Bank and regional confrontation",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Israeli victims and hostages, Palestinian civilians, Hamas and allied groups, Israeli government and military, Regional actors, Humanitarian workers",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 10 — violence and apparent impunity; Psalm 22 — abandonment and cry; Psalm 44 — communal catastrophe; Psalm 79 — devastated city; Psalm 85 — peace joined to justice; Psalm 120 — ‘I am for peace’",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Ongoing and fast-changing. Update before public distribution.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The outcome remains open as of July 2026. The app refuses to turn an unfolding catastrophe into a neat prophecy chart.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God of lament; Judge of every actor; Near to the traumatised",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Massacre; Hostage-taking; Civilian devastation; Revenge; Dehumanisation",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Live evidence only",
+        "detail": "Casualty totals, displacement, aid access and legal proceedings change. The app links to official live reporting rather than freezing volatile figures.",
+        "type": "Current-events method",
+        "sources": [
+          "ocha-live",
+          "icj-israel-case",
+          "icc-palestine"
+        ]
+      },
+      {
+        "label": "Legal precision",
+        "detail": "Allegations, provisional measures, arrest warrants, jurisdictional rulings and final judgments are different legal categories and must not be conflated.",
+        "type": "Legal method",
+        "sources": [
+          "icj-israel-case",
+          "icc-palestine"
+        ]
+      }
+    ]
   },
   {
     "id": "future",
@@ -5597,7 +7906,11 @@
       "psalms-yale-intro",
       "psalms-yale-royal",
       "esch-future-israel",
-      "esch-jewish-messianism"
+      "esch-jewish-messianism",
+      "revelation-five-views",
+      "israel-church-four-views",
+      "yale-revelation",
+      "jewish-messianism"
     ],
     "eschatology": {
       "motifs": [
@@ -5651,6 +7964,79 @@
         "The faithful of every people"
       ]
     },
-    "imageKey": null
+    "imageKey": null,
+    "factBank": [
+      {
+        "label": "Date and historical range",
+        "detail": "Future hope",
+        "type": "Chronology",
+        "sources": []
+      },
+      {
+        "label": "Geographical setting",
+        "detail": "New creation",
+        "type": "Geography",
+        "sources": []
+      },
+      {
+        "label": "Dominant political world",
+        "detail": "Future hope / kingdom of God",
+        "type": "World history",
+        "sources": []
+      },
+      {
+        "label": "Key people",
+        "detail": "Messiah, Israel and the nations, The faithful of every people",
+        "type": "People",
+        "sources": []
+      },
+      {
+        "label": "Prophetic voices",
+        "detail": "Isaiah, Micah, Ezekiel, Daniel, Zechariah, John of Patmos",
+        "type": "Bible map",
+        "sources": []
+      },
+      {
+        "label": "Psalms mapped here",
+        "detail": "Psalm 2 — nations and the anointed king; Psalm 72 — just worldwide reign; Psalm 96–98 — the LORD comes to judge with equity; Psalm 110 — priest-king; Psalm 145 — everlasting kingdom",
+        "type": "Psalm map",
+        "sources": []
+      },
+      {
+        "label": "Historical confidence",
+        "detail": "Confessional Christian hope; details and millennial schemes differ.",
+        "type": "Method",
+        "sources": []
+      },
+      {
+        "label": "What happened to the dominant power",
+        "detail": "The biblical final enemy is not one ethnicity or state but sin, death and every power opposed to God’s just reign.",
+        "type": "Aftermath",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about God",
+        "detail": "God who raises the dead; Just judge; Healer of nations; Dwelling presence",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "What this reveals about sin",
+        "detail": "Speculation; Arrogance; Sanctifying violence",
+        "type": "Theology",
+        "sources": []
+      },
+      {
+        "label": "Eschatology is not one lens",
+        "detail": "Preterist, historicist, idealist, futurist and eclectic approaches ask different questions; covenantal and dispensational systems also differ over Israel, church, land and future fulfilment.",
+        "type": "Interpretive map",
+        "sources": [
+          "revelation-five-views",
+          "israel-church-four-views",
+          "yale-revelation",
+          "jewish-messianism"
+        ]
+      }
+    ]
   }
 ]

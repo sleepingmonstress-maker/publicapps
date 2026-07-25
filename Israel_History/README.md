@@ -1,11 +1,18 @@
-# Israel Through Time — Whole Map Dialog Fix v4
+# Israel Through Time — Definitive Facts, Evidence & Significance Edition
 
-The mobile **See the whole map** control now opens a genuine full-screen map dialog containing all 34 periods. It no longer depends on scrolling to a hidden element, URL fragments, CSS `:target`, or the mobile Timeline tab.
+This edition consolidates all prior paths into one app:
+- 34 historical portals and the eight-lane comparison timeline
+- dedicated mobile journey and full-screen map
+- clickable prophets, Psalms, passages, evidence, motifs and theological truths
+- per-period fact banks with dates, powers, people, evidence and limits
+- archaeology, ancient DNA, manuscript science and secular-world intersections
+- six eschatological lenses at every period
+- explicit separation of established fact, historical inference, theological interpretation and dispute
+- multiple Jewish, Christian, secular, Palestinian and open theological viewpoints
+- Jewish continuity, assimilation, return, political will and international support
+- detailed Dead Sea Scrolls master study
+- modern Israel, Palestinian history and live current-event/legal links
 
-## Deploy
-Replace the entire existing GitHub Pages folder with this package. The button ID and JavaScript filenames are new so older cached scripts cannot intercept the new button.
+The source library contains 100 curated entries. Current-event numbers are not frozen into the offline app; live official sources are linked instead.
 
-## Behaviour
-- Phone/mobile browser: opens the full-screen 34-period story map.
-- Desktop: scrolls to the full eight-lane comparison matrix.
-- Tap any period in the mobile map to enter its guided portal.
+Open `index.html` directly or deploy all files together to GitHub Pages.

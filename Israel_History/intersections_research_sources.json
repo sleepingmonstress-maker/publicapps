@@ -1,0 +1,37 @@
+{
+  "research_checkpoint": "2026-07-25",
+  "method": [
+    {"title":"Yale Bible Study — History and Literature","url":"https://yalebiblestudy.org/courses/the-books-of-samuel/lessons/history-and-literature-study-guide/"},
+    {"title":"Yale Bible Study — Deuteronomistic History","url":"https://yalebiblestudy.org/courses/the-books-of-samuel/lessons/introduction-study-guide-2/"}
+  ],
+  "ancient_intersections": [
+    {"title":"Merneptah Stele","url":"https://www.museumofthebible.org/book-minute/the-merneptah-stele"},
+    {"title":"Tel Dan Stele","url":"https://thejewishmuseum.org/exhibitions/tel-dan-stele/"},
+    {"title":"Black Obelisk","url":"https://www.britishmuseum.org/collection/object/W_1848-1104-1"},
+    {"title":"Sennacherib Prism","url":"https://www.britishmuseum.org/collection/object/W_1855-1003-1"},
+    {"title":"Sennacherib and Jerusalem","url":"https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/sennacherib-and-jerusalem"},
+    {"title":"Cyrus and the Judean Diaspora","url":"https://www.metmuseum.org/perspectives/cyrus-and-the-judean-diaspora"},
+    {"title":"Al-Yahudu archive","url":"https://www.blmj.org/en/Exhibition/jerusalem-in-babylon/"},
+    {"title":"Cyrus Cylinder","url":"https://www.britishmuseum.org/collection/object/W_1880-0617-1941"},
+    {"title":"Pilate Stone","url":"https://www.museumofthebible.org/book-minute/the-pilate-stone"}
+  ],
+  "science": [
+    {"title":"Genomic History of the Bronze Age Southern Levant","url":"https://www.cell.com/cell/fulltext/S0092-8674%2820%2930487-6"},
+    {"title":"Ancient DNA and early Iron Age Philistines","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6609216/"},
+    {"title":"Radiometric dating of the Siloam Tunnel","url":"https://www.nature.com/articles/news030908-9"},
+    {"title":"Dead Sea Scroll parchment DNA","url":"https://www.cell.com/cell/fulltext/S0092-8674%2820%2930552-3"}
+  ],
+  "modern_and_current": [
+    {"title":"Balfour Declaration","url":"https://catalog.archives.gov.il/site/publication/balfour-decleration/"},
+    {"title":"Holocaust Encyclopedia","url":"https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust"},
+    {"title":"UN partition plan","url":"https://www.un.org/unispal/document/auto-insert-185393/"},
+    {"title":"Israel Declaration of Establishment","url":"https://main.knesset.gov.il/about/occasion/pages/declaration.aspx"},
+    {"title":"UN Security Council Resolution 242","url":"https://digitallibrary.un.org/record/90717"},
+    {"title":"Oslo Accord","url":"https://www.un.org/unispal/document/auto-insert-180015/"},
+    {"title":"UN history of the Question of Palestine","url":"https://www.un.org/unispal/history/"},
+    {"title":"OCHA humanitarian updates","url":"https://www.ochaopt.org/publications/humanitarian-situation-update"},
+    {"title":"OCHA report — 23 July 2026","url":"https://www.ochaopt.org/content/humanitarian-situation-report-23-july-2026"},
+    {"title":"ICJ case records","url":"https://www.icj-cij.org/taxonomy/term/406"},
+    {"title":"ICC Palestine situation","url":"https://www.icc-cpi.int/palestine"}
+  ]
+}

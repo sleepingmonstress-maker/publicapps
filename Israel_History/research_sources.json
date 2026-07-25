@@ -520,83 +520,283 @@
     "note": "Introduces traditional Jewish expectations involving redemption of Israel, peace, Jerusalem, resurrection and the messianic age, while noting diversity within Judaism."
   },
   {
-    "id": "psalm-usccb",
-    "title": "USCCB Book of Psalms — Full text and chapter notes",
-    "institution": "United States Conference of Catholic Bishops",
-    "type": "Biblical text and notes",
-    "url": "https://bible.usccb.org/bible/psalms/0",
-    "note": "Full Psalm text with introductions and chapter-level notes."
+    "id": "dss-iaa-home",
+    "title": "Leon Levy Dead Sea Scrolls Digital Library",
+    "institution": "Israel Antiquities Authority",
+    "type": "Primary manuscript archive",
+    "url": "https://www.deadseascrolls.org.il/",
+    "note": "High-resolution access to thousands of fragments, including the oldest known copies of biblical texts."
   },
   {
-    "id": "psalm-bibleproject",
-    "title": "BibleProject — Book of Psalms guide",
-    "institution": "BibleProject",
-    "type": "Visual biblical-theology resource",
-    "url": "https://bibleproject.com/guides/book-of-psalms/",
-    "note": "Literary design, themes, videos and further Psalm resources."
+    "id": "dss-iaa-featured",
+    "title": "Featured Dead Sea Scrolls",
+    "institution": "Israel Antiquities Authority",
+    "type": "Biblical and Second Temple manuscripts",
+    "url": "https://www.deadseascrolls.org.il/featured-scrolls",
+    "note": "Explains the biblical scrolls, textual similarities and variations, and non-biblical writings from Qumran."
   },
   {
-    "id": "psalm-yale-course",
-    "title": "Yale Bible Study — Psalms",
-    "institution": "Yale Divinity School",
-    "type": "Academic course",
-    "url": "https://yalebiblestudy.org/courses/psalms/",
-    "note": "Free study of Psalm genres, poetry, history and theology."
+    "id": "dss-iaa-intro",
+    "title": "Introduction to the Dead Sea Scrolls",
+    "institution": "Israel Antiquities Authority",
+    "type": "Discovery and textual history",
+    "url": "https://www.deadseascrolls.org.il/learn-about-the-scrolls/introduction",
+    "note": "Introduces the Qumran and refuge-cave collections and their importance for textual criticism."
   },
   {
-    "id": "psalm-sefaria",
-    "title": "Sefaria — Psalms in Hebrew and English",
-    "institution": "Sefaria",
-    "type": "Jewish textual library",
-    "url": "https://www.sefaria.org/Psalms.1?lang=bi",
-    "note": "Hebrew/English Tanakh text and connected Jewish sources."
+    "id": "dss-loc-intro",
+    "title": "Scrolls from the Dead Sea — Introduction",
+    "institution": "Library of Congress",
+    "type": "Historical and scientific overview",
+    "url": "https://www.loc.gov/exhibits/scrolls/intr.html",
+    "note": "Surveys discovery, dating, Qumran, manuscripts and the Second Temple setting."
   },
   {
-    "id": "theme-day-lord",
-    "title": "BibleProject — Day of the Lord",
-    "institution": "BibleProject",
-    "type": "Visual biblical-theme resource",
-    "url": "https://bibleproject.com/videos/day-of-the-lord/",
-    "note": "Traces historical days of judgment and the final horizon of renewal."
+    "id": "dss-loc-significance",
+    "title": "Dead Sea Scrolls Two Thousand Years Later",
+    "institution": "Library of Congress",
+    "type": "Judaism and Christianity",
+    "url": "https://www.loc.gov/exhibits/scrolls/today.html",
+    "note": "Explains the scrolls as a window into diverse Second Temple Judaism and the Jewish background of Christianity."
   },
   {
-    "id": "theme-covenants",
-    "title": "BibleProject — Covenants",
-    "institution": "BibleProject",
-    "type": "Visual biblical-theme resource",
-    "url": "https://bibleproject.com/videos/covenants/",
-    "note": "Traces covenant partnership across the biblical story."
+    "id": "hebrew-revival",
+    "title": "Hebrew through the Ages",
+    "institution": "Academy of the Hebrew Language",
+    "type": "Language continuity and revival",
+    "url": "https://eng.hebrew-academy.org.il/overview-of-hebrew/hebrew-through-the-ages/",
+    "note": "Traces Biblical, Mishnaic, Medieval and Modern Hebrew across three millennia."
   },
   {
-    "id": "theme-messiah",
-    "title": "BibleProject — The Messiah",
-    "institution": "BibleProject",
-    "type": "Visual biblical-theme resource",
-    "url": "https://bibleproject.com/videos/messiah/",
-    "note": "Traces messianic promise from Genesis through David and Jesus."
+    "id": "ben-yehuda",
+    "title": "Eliezer Ben-Yehuda — Reviver of Spoken Hebrew",
+    "institution": "Academy of the Hebrew Language",
+    "type": "Modern language revival",
+    "url": "https://hebrew-academy.org.il/wp-content/uploads/BY-UNESCO.pdf",
+    "note": "Describes Ben-Yehuda’s role in transforming Hebrew into a modern spoken vernacular."
   },
   {
-    "id": "theme-temple",
-    "title": "BibleProject — Temple",
-    "institution": "BibleProject",
-    "type": "Visual biblical-theme resource",
-    "url": "https://bibleproject.com/videos/temple/",
-    "note": "Traces divine presence, temple and renewed creation."
+    "id": "jewish-continuity",
+    "title": "Who Are the Jews?",
+    "institution": "American Jewish Committee",
+    "type": "Peoplehood and diaspora continuity",
+    "url": "https://www.ajc.org/news/who-are-the-jews",
+    "note": "Explains Jewish peoplehood, diaspora, continuing attachment to the land and Hebrew."
   },
   {
-    "id": "esch-yale-revelation",
+    "id": "ushmm-dp",
+    "title": "Displaced Persons and Zionism",
+    "institution": "United States Holocaust Memorial Museum",
+    "type": "Postwar migration",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/displaced-persons",
+    "note": "Explains why many Jewish survivors viewed Palestine as their desired destination after the Holocaust."
+  },
+  {
+    "id": "ushmm-state",
+    "title": "Holocaust Survivors and the Establishment of Israel",
+    "institution": "United States Holocaust Memorial Museum",
+    "type": "Refuge and state formation",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/postwar-refugee-crisis-and-the-establishment-of-the-state-of-israel",
+    "note": "Connects the refugee crisis, UN partition, statehood and post-1948 immigration."
+  },
+  {
+    "id": "poland-restored",
+    "title": "Poland Regained Independence in 1918",
+    "institution": "U.S. Department of State archive",
+    "type": "Comparative national restoration",
+    "url": "https://2009-2017.state.gov/outofdate/bgn/poland/197879.htm",
+    "note": "A comparison showing that other nations have also regained sovereignty after political disappearance."
+  },
+  {
+    "id": "fossil-incomplete",
+    "title": "What Is a Fossil?",
+    "institution": "Natural History Museum, London",
+    "type": "Scientific method",
+    "url": "https://www.nhm.ac.uk/discover/what-is-a-fossil.html",
+    "note": "Explains that the fossil record is incomplete yet scientifically useful."
+  },
+  {
+    "id": "fossil-method",
+    "title": "What Scientists Can Learn from Dinosaurs",
+    "institution": "Natural History Museum, London",
+    "type": "Cumulative evidence",
+    "url": "https://www.nhm.ac.uk/discover/what-can-scientists-learn-about-dinosaurs-and-how.html",
+    "note": "Shows how bones, teeth, eggs, tracks and other independent traces are combined."
+  },
+  {
+    "id": "history-fragmentary",
+    "title": "What Kinds of Problems Do Historians Solve?",
+    "institution": "Cambridge University Press",
+    "type": "Historical method",
+    "url": "https://www.cambridge.org/core/books/teaching-history-in-higher-education/what-kinds-of-problems-do-historians-solve/5A07931EF1DBE522784B6C304D3FD1FD",
+    "note": "Historical evidence is often fragmentary, indirect and suggestive rather than conclusive."
+  },
+  {
+    "id": "jewish-messianism",
+    "title": "Jewish Messianism",
+    "institution": "My Jewish Learning",
+    "type": "Jewish eschatological expectations",
+    "url": "https://www.myjewishlearning.com/article/jewish-messianism/",
+    "note": "Introduces ingathering, peace, Jerusalem, redemption and diverse Jewish understandings of the messianic age."
+  },
+  {
+    "id": "christian-zionist-view",
+    "title": "Why the Land Promises Belong to Israel",
+    "institution": "The Gospel Coalition — Gerald McDermott",
+    "type": "Christian Zionist / continuing-land view",
+    "url": "https://www.thegospelcoalition.org/article/israel-land-promise-mcdermott/",
+    "note": "Argues that Jewish return has continuing theological and prophetic significance."
+  },
+  {
+    "id": "universalized-land-view",
+    "title": "Expected Universalisation of the Land Promises",
+    "institution": "The Gospel Coalition — G. K. Beale",
+    "type": "Covenantal / new-creation view",
+    "url": "https://www.thegospelcoalition.org/article/israel-land-promise-beale/",
+    "note": "Argues that land promises expand in Christ toward worldwide new-creation fulfilment rather than modern territorial fulfilment alone."
+  },
+  {
+    "id": "israel-church-views",
+    "title": "Perspectives on Israel and the Church: Four Views",
+    "institution": "Themelios / The Gospel Coalition",
+    "type": "Comparative theology",
+    "url": "https://www.thegospelcoalition.org/themelios/review/perspectives-on-israel-and-the-church-4-views/",
+    "note": "Summarises covenantal, dispensational and mediating approaches."
+  },
+  {
+    "id": "dss-iaa-discovery",
+    "title": "Israel Antiquities Authority — Discovery and Publication of the Dead Sea Scrolls",
+    "institution": "Israel Antiquities Authority",
+    "type": "Official manuscript history",
+    "url": "https://www.deadseascrolls.org.il/learn-about-the-scrolls/discovery-and-publication",
+    "note": "Official account of the 1947 discovery, eleven caves, fragments and publication history."
+  },
+  {
+    "id": "dss-iaa-languages",
+    "title": "Israel Antiquities Authority — Languages and Scripts",
+    "institution": "Israel Antiquities Authority",
+    "type": "Manuscript science",
+    "url": "https://www.deadseascrolls.org.il/learn-about-the-scrolls/languages-and-scripts",
+    "note": "Explains Hebrew, Aramaic and Greek manuscripts, palaeography and dating."
+  },
+  {
+    "id": "dss-great-isaiah",
+    "title": "Israel Museum — The Great Isaiah Scroll",
+    "institution": "Israel Museum",
+    "type": "Primary manuscript",
+    "url": "https://dss.collections.imj.org.il/isaiah",
+    "note": "Interactive presentation of the complete Great Isaiah Scroll, approximately 125 BCE."
+  },
+  {
+    "id": "dss-loc-today",
+    "title": "Library of Congress — The Dead Sea Scrolls Today",
+    "institution": "Library of Congress",
+    "type": "Historical significance",
+    "url": "https://www.loc.gov/exhibits/scrolls/today.html",
+    "note": "Explains the Scrolls’ importance for the Hebrew Bible, Second Temple Judaism and the background of Christianity."
+  },
+  {
+    "id": "dss-cell-dna",
+    "title": "Cell — Genetic Analysis of Dead Sea Scroll Parchment",
+    "institution": "Cell / peer-reviewed research",
+    "type": "Manuscript science",
+    "url": "https://www.cell.com/cell/fulltext/S0092-8674(20)30552-3",
+    "note": "Uses parchment DNA to help group fragments and investigate manuscript origins."
+  },
+  {
+    "id": "pew-jewish-2020",
+    "title": "Pew Research Center — Jewish Americans in 2020",
+    "institution": "Pew Research Center",
+    "type": "Modern identity research",
+    "url": "https://www.pewresearch.org/religion/2021/05/11/jewish-americans-in-2020/",
+    "note": "Large survey of Jewish identity, belonging, practice, family and intermarriage in the United States."
+  },
+  {
+    "id": "pew-jewish-marriage",
+    "title": "Pew Research Center — Marriage, Families and Children among U.S. Jews",
+    "institution": "Pew Research Center",
+    "type": "Demography",
+    "url": "https://www.pewresearch.org/religion/2021/05/11/marriage-families-and-children/",
+    "note": "Reports intermarriage and child-rearing patterns, useful for studying assimilation and continuity."
+  },
+  {
+    "id": "ushmm-farhud",
+    "title": "USHMM — The Farhud",
+    "institution": "United States Holocaust Memorial Museum",
+    "type": "Middle Eastern Jewish history",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-farhud",
+    "note": "Documents the 1941 anti-Jewish violence in Baghdad and the context of the later mass departure of Iraqi Jews."
+  },
+  {
+    "id": "un-palestine-history",
+    "title": "United Nations — History of the Question of Palestine",
+    "institution": "United Nations",
+    "type": "Modern diplomatic history",
+    "url": "https://www.un.org/unispal/history/",
+    "note": "Documents Mandate, partition, wars, refugees and diplomacy from a UN archival perspective."
+  },
+  {
+    "id": "ocha-live",
+    "title": "UN OCHA — Humanitarian Situation Updates",
+    "institution": "United Nations OCHA",
+    "type": "Live humanitarian record",
+    "url": "https://www.ochaopt.org/publications/humanitarian-situation-update",
+    "note": "Date-sensitive humanitarian reporting for Gaza and the West Bank; figures should be checked live."
+  },
+  {
+    "id": "icj-israel-case",
+    "title": "International Court of Justice — South Africa v. Israel",
+    "institution": "International Court of Justice",
+    "type": "Current legal record",
+    "url": "https://www.icj-cij.org/case/192",
+    "note": "Official pleadings, orders and procedural status. Allegations, provisional measures and final judgments must be distinguished."
+  },
+  {
+    "id": "nhm-fossil-record",
+    "title": "Natural History Museum — What Is a Fossil?",
+    "institution": "Natural History Museum, London",
+    "type": "Science method",
+    "url": "https://www.nhm.ac.uk/discover/what-is-a-fossil.html",
+    "note": "Explains why fossilisation is rare and why the fossil record is necessarily incomplete."
+  },
+  {
+    "id": "nhm-dinosaur-method",
+    "title": "Natural History Museum — What Can Scientists Learn about Dinosaurs?",
+    "institution": "Natural History Museum, London",
+    "type": "Science method",
+    "url": "https://www.nhm.ac.uk/discover/what-can-scientists-learn-about-dinosaurs-and-how.html",
+    "note": "Shows how partial remains, geology, anatomy and multiple traces converge in scientific reconstruction."
+  },
+  {
+    "id": "revelation-five-views",
+    "title": "Ligonier — Interpreting Revelation",
+    "institution": "Ligonier Ministries",
+    "type": "Eschatology overview",
+    "url": "https://learn.ligonier.org/articles/interpreting-revelation",
+    "note": "Summarises preterist, historicist, idealist, futurist and eclectic approaches."
+  },
+  {
+    "id": "israel-church-four-views",
+    "title": "The Gospel Coalition — Perspectives on Israel and the Church: Four Views",
+    "institution": "The Gospel Coalition / Themelios",
+    "type": "Theological viewpoints",
+    "url": "https://www.thegospelcoalition.org/themelios/review/perspectives-on-israel-and-the-church-4-views/",
+    "note": "Introduces major covenantal, dispensational and mediating approaches."
+  },
+  {
+    "id": "yale-revelation",
     "title": "Yale Bible Study — Revelation",
     "institution": "Yale Divinity School",
-    "type": "Academic course",
+    "type": "Academic biblical study",
     "url": "https://yalebiblestudy.org/courses/revelation/",
-    "note": "Introduces apocalyptic genre, context and interpretation."
+    "note": "Free academic course on Revelation’s historical setting, imagery and theological interpretation."
   },
   {
-    "id": "esch-jewish-library",
-    "title": "My Jewish Learning — Jewish Eschatology",
-    "institution": "My Jewish Learning",
-    "type": "Jewish interpretive resource",
-    "url": "https://www.myjewishlearning.com/topics/jewish-eschatology/",
-    "note": "Introduces diverse Jewish teachings on redemption, Messiah and the age to come."
+    "id": "historical-method",
+    "title": "Cambridge — What Kinds of Problems Do Historians Solve?",
+    "institution": "Cambridge University Press",
+    "type": "Historical method",
+    "url": "https://www.cambridge.org/core/books/teaching-history-in-higher-education/what-kinds-of-problems-do-historians-solve/5A07931EF1DBE522784B6C304D3FD1FD",
+    "note": "Explains reasoning from incomplete, indirect and sometimes conflicting evidence."
   }
 ]
